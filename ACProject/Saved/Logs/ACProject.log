@@ -389,3 +389,418 @@ LogInit: Object subsystem initialized
 [2018.05.26-15.44.46:020][ 18]LogSavePackage: Save=141.06ms
 [2018.05.26-15.44.46:020][ 18]LogSavePackage: Moving '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/ThirdPersonExampleMap_BuiltData958CE4EE4ACA148A4E5C5E88CB235F5C.tmp' to '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
 [2018.05.26-15.44.46:021][ 18]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2018.05.26-15.49.26:126][500]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.05.26-15.49.26:421][529]Cmd: TRANSACTION UNDO
+[2018.05.26-15.49.26:421][529]LogEditorTransaction: Undo Clicking on Actors
+[2018.05.26-15.49.40:532][179]Cmd: TRANSACTION UNDO
+[2018.05.26-15.49.40:532][179]LogEditorTransaction: Undo Move Actors
+[2018.05.26-15.49.40:535][179]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.LinearStairBrush.BrushComponent0) Component already registered.
+[2018.05.26-15.49.40:536][179]LogGeometryMode: Warning: Unable to find 2 Poly(s) in new BSP
+[2018.05.26-15.49.40:537][179]LogGeometryMode: Warning: Unable to resolve BoxBrush2 Brush in new BSP, see above
+[2018.05.26-15.49.40:537][179]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.05.26-15.50.10:030][619]Cmd: DELETE
+[2018.05.26-15.50.10:030][619]Cmd: ACTOR DELETE
+[2018.05.26-15.50.10:032][619]LogEditorActor: Deleted Actor: Brush
+[2018.05.26-15.50.10:045][619]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2018.05.26-15.50.29:984][991]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.05.26-15.51.06:952][251]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.05.26-15.51.14:553][115]LogGeometryMode: Warning: Unable to find BoxBrush Brush(s) in new BSP
+[2018.05.26-15.51.14:553][115]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.05.26-15.51.21:232][887]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2018.05.26-15.51.44:492][583]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.26-15.51.44:526][583]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.05.26-15.51.44:526][583]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.26-15.51.44:527][583]PIE: New page: PIE session: ThirdPersonExampleMap (May 26, 2018, 7:51:44 PM)
+[2018.05.26-15.51.44:527][583]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.05.26-15.51.44:549][583]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022822s)
+[2018.05.26-15.51.44:550][583]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.05.26-15.51.44:550][583]LogPlayLevel: PIE: World Init took: (0.000934s)
+[2018.05.26-15.51.44:551][583]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.024128s)
+[2018.05.26-15.51.44:568][583]LogInit: XAudio2 using 'Casque (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.26-15.51.44:575][583]LogInit: FAudioDevice initialized.
+[2018.05.26-15.51.44:623][583]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.05.26-15.51.44:626][583]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.05.26-17.51.44
+[2018.05.26-15.51.44:626][583]LogWorld: Bringing up level for play took: 0.001701
+[2018.05.26-15.51.44:676][583]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
+[2018.05.26-15.51.44:677][583]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.379
+[2018.05.26-15.51.44:677][583]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.05.26-15.51.46:615][811]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.05.26-15.51.46:615][811]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.05.26-15.52.08:024][378]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.05.26-15.52.08:060][378]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.05.26-15.52.18:164][515]Cmd: DUPLICATE
+[2018.05.26-15.52.18:164][515]Cmd: ACTOR DUPLICATE
+[2018.05.26-15.52.18:177][515]LogGeometryMode: Warning: Unable to find BoxBrush2_3 Brush(s) in new BSP
+[2018.05.26-15.52.18:177][515]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.05.26-15.52.18:933][600]Cmd: DUPLICATE
+[2018.05.26-15.52.18:933][600]Cmd: ACTOR DUPLICATE
+[2018.05.26-15.52.19:380][648]Cmd: DUPLICATE
+[2018.05.26-15.52.19:380][648]Cmd: ACTOR DUPLICATE
+[2018.05.26-15.52.19:747][686]Cmd: DUPLICATE
+[2018.05.26-15.52.19:747][686]Cmd: ACTOR DUPLICATE
+[2018.05.26-15.52.20:065][718]Cmd: DUPLICATE
+[2018.05.26-15.52.20:065][718]Cmd: ACTOR DUPLICATE
+[2018.05.26-15.52.21:331][864]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.05.26-15.52.21:331][864]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.05.26-15.52.23:764][156]Cmd: TRANSACTION UNDO
+[2018.05.26-15.52.23:764][156]LogEditorTransaction: Undo Duplicate Actors
+[2018.05.26-15.52.23:769][156]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush7.BrushComponent0) Component already registered.
+[2018.05.26-15.52.23:770][156]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush8_7.BrushComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.26-15.52.23:955][174]Cmd: TRANSACTION UNDO
+[2018.05.26-15.52.23:955][174]LogEditorTransaction: Undo Duplicate Actors
+[2018.05.26-15.52.23:958][174]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush2_2.BrushComponent0) Component already registered.
+[2018.05.26-15.52.23:960][174]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush7_6.BrushComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.26-15.52.23:960][174]LogGeometryMode: Warning: Unable to find BoxBrush7 Brush(s) in new BSP
+[2018.05.26-15.52.23:960][174]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.05.26-15.52.24:150][192]Cmd: TRANSACTION UNDO
+[2018.05.26-15.52.24:150][192]LogEditorTransaction: Undo Duplicate Actors
+[2018.05.26-15.52.24:152][192]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.LinearStairBrush.BrushComponent0) Component already registered.
+[2018.05.26-15.52.24:152][192]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush4.BrushComponent0) Component already registered.
+[2018.05.26-15.52.24:153][192]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush3.BrushComponent0) Component already registered.
+[2018.05.26-15.52.24:153][192]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2018.05.26-15.52.24:154][192]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush6.BrushComponent0) Component already registered.
+[2018.05.26-15.52.24:155][192]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush6_5.BrushComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.26-15.52.24:155][192]LogGeometryMode: Warning: Unable to find BoxBrush6 Brush(s) in new BSP
+[2018.05.26-15.52.24:155][192]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.05.26-15.52.24:338][210]Cmd: TRANSACTION UNDO
+[2018.05.26-15.52.24:338][210]LogEditorTransaction: Undo Duplicate Actors
+[2018.05.26-15.52.24:341][210]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush4.BrushComponent0) Component already registered.
+[2018.05.26-15.52.24:343][210]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush5_4.BrushComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.26-15.52.24:343][210]LogGeometryMode: Warning: Unable to find BoxBrush5 Brush(s) in new BSP
+[2018.05.26-15.52.24:343][210]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.05.26-15.52.24:516][228]Cmd: TRANSACTION UNDO
+[2018.05.26-15.52.24:517][228]LogEditorTransaction: Undo Duplicate Actors
+[2018.05.26-15.52.24:521][228]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush2_3.BrushComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.26-15.52.24:521][228]LogGeometryMode: Warning: Unable to find BoxBrush2_2 Brush(s) in new BSP
+[2018.05.26-15.52.24:521][228]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.05.26-15.52.24:693][246]Cmd: TRANSACTION UNDO
+[2018.05.26-15.52.24:693][246]LogEditorTransaction: Undo Move Actors
+[2018.05.26-15.52.24:696][246]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.LinearStairBrush.BrushComponent0) Component already registered.
+[2018.05.26-15.52.24:944][272]Cmd: TRANSACTION UNDO
+[2018.05.26-15.52.24:944][272]LogEditorTransaction: Undo Move Actors
+[2018.05.26-15.52.24:947][272]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.LinearStairBrush.BrushComponent0) Component already registered.
+[2018.05.26-15.52.24:949][272]LogGeometryMode: Warning: Unable to find 1 Poly(s) in new BSP
+[2018.05.26-15.52.24:949][272]LogGeometryMode: Warning: Unable to resolve BoxBrush2_2 Brush in new BSP, see above
+[2018.05.26-15.52.24:949][272]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.05.26-15.52.33:546][284]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.26-15.52.33:560][284]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.05.26-15.52.33:560][284]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.26-15.52.33:560][284]PIE: New page: PIE session: ThirdPersonExampleMap (May 26, 2018, 7:52:33 PM)
+[2018.05.26-15.52.33:560][284]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.05.26-15.52.33:580][284]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020234s)
+[2018.05.26-15.52.33:581][284]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.05.26-15.52.33:582][284]LogPlayLevel: PIE: World Init took: (0.001078s)
+[2018.05.26-15.52.33:582][284]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021671s)
+[2018.05.26-15.52.33:598][284]LogInit: XAudio2 using 'Casque (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.26-15.52.33:604][284]LogInit: FAudioDevice initialized.
+[2018.05.26-15.52.33:635][284]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.05.26-15.52.33:638][284]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.05.26-17.52.33
+[2018.05.26-15.52.33:638][284]LogWorld: Bringing up level for play took: 0.001721
+[2018.05.26-15.52.33:639][284]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.588
+[2018.05.26-15.52.33:646][284]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.05.26-15.52.38:501][862]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.05.26-15.52.38:531][862]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.05.26-15.52.42:862][376]LogEditorViewport: Clicking on Actor (LMB): AI_C (AI2)
+[2018.05.26-15.53.36:620][768]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.05.26-15.53.59:321][437]LogGeometryMode: Warning: Unable to find LinearStairBrush Brush(s) in new BSP
+[2018.05.26-15.53.59:321][437]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.05.26-15.54.11:970][936]LogGeometryMode: Warning: Unable to find BoxBrush Brush(s) in new BSP
+[2018.05.26-15.54.11:970][936]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.05.26-15.54.17:162][534]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2018.05.26-15.54.20:319][885]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2018.05.26-15.55.14:187][203]LogDialogs: Warning: Suppressed: Extrude only works with Local Coordinates System
+[2018.05.26-15.56.03:260][972]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.05.26-15.56.07:222][433]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2018.05.26-15.56.21:713][813]LogSavePackage: Save=128.05ms
+[2018.05.26-15.56.21:713][813]LogSavePackage: Moving '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/ThirdPersonExampleMap30A19F8148BD8DA51AE7A9944B5C71EF.tmp' to '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.05.26-15.56.21:717][813]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.05.26-15.56.21:853][813]LogSavePackage: Save=96.98ms
+[2018.05.26-15.56.21:853][813]LogSavePackage: Moving '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/ThirdPersonExampleMap_BuiltDataD4DE816041542B59088931B4A66C4AB5.tmp' to '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.05.26-15.56.21:855][813]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2018.05.26-16.04.30:553][852]Cmd: TRANSACTION UNDO
+[2018.05.26-16.04.30:553][852]LogEditorTransaction: Undo Edit Step Length
+[2018.05.26-16.05.35:625][442]LogGeometryMode: Warning: Unable to find BoxBrush Brush(s) in new BSP
+[2018.05.26-16.05.35:625][442]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.05.26-16.05.43:333][352]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.05.26-16.07.00:621][462]LogGeometryMode: Warning: Unable to find BoxBrush Brush(s) in new BSP
+[2018.05.26-16.07.00:621][462]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.05.26-16.07.58:337][861]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cylinder5)
+[2018.05.26-16.07.59:176][943]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.05.26-16.08.25:470][ 64]LogSavePackage: Save=125.87ms
+[2018.05.26-16.08.25:470][ 64]LogSavePackage: Moving '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/ThirdPersonExampleMap_Auto1ABE1697042FE7EB753192287364DFBA6.tmp' to '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2018.05.26-16.08.25:472][ 64]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2018.05.26-16.08.25:474][ 64]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.153
+[2018.05.26-16.08.25:474][ 64]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.153
+[2018.05.26-16.09.41:575][163]LogDialogs: Warning: Suppressed: Extrude only works with Local Coordinates System
+[2018.05.26-16.09.44:200][455]Cmd: TRANSACTION UNDO
+[2018.05.26-16.09.44:200][455]LogEditorTransaction: Undo Move Actors
+[2018.05.26-16.09.44:205][455]LogGeometryMode: Warning: Unable to find 2 Poly(s) in new BSP
+[2018.05.26-16.09.44:205][455]LogGeometryMode: Warning: Unable to resolve BoxBrush2_2 Brush in new BSP, see above
+[2018.05.26-16.09.44:205][455]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.05.26-16.09.54:012][514]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2018.05.26-16.09.54:012][514]LogGeometryMode: Warning: Unable to find LightmassImportanceVolume_0 Brush(s) in new BSP
+[2018.05.26-16.09.54:012][514]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.05.26-16.09.58:373][ 25]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.05.26-16.10.12:889][731]Cmd: TRANSACTION UNDO
+[2018.05.26-16.10.12:889][731]LogEditorTransaction: Undo Move Actors
+[2018.05.26-16.10.12:894][731]LogGeometryMode: Warning: Unable to find 2 Poly(s) in new BSP
+[2018.05.26-16.10.12:894][731]LogGeometryMode: Warning: Unable to resolve BoxBrush2_2 Brush in new BSP, see above
+[2018.05.26-16.10.12:894][731]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.05.26-16.10.29:778][700]Cmd: TRANSACTION UNDO
+[2018.05.26-16.10.29:778][700]LogEditorTransaction: Undo Move Actors
+[2018.05.26-16.10.29:783][700]LogGeometryMode: Warning: Unable to find 1 Poly(s) in new BSP
+[2018.05.26-16.10.29:783][700]LogGeometryMode: Warning: Unable to resolve BoxBrush2_2 Brush in new BSP, see above
+[2018.05.26-16.10.29:783][700]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.05.26-16.10.30:918][830]LogDialogs: Warning: Suppressed: Extrude only works with Local Coordinates System
+[2018.05.26-16.10.36:832][386]Cmd: TRANSACTION UNDO
+[2018.05.26-16.10.36:832][386]LogEditorTransaction: Undo Move Actors
+[2018.05.26-16.10.36:837][386]LogGeometryMode: Warning: Unable to find 1 Poly(s) in new BSP
+[2018.05.26-16.10.36:838][386]LogGeometryMode: Warning: Unable to resolve BoxBrush2_2 Brush in new BSP, see above
+[2018.05.26-16.10.36:838][386]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.05.26-16.10.37:217][426]Cmd: TRANSACTION UNDO
+[2018.05.26-16.10.37:217][426]LogEditorTransaction: Undo Move Actors
+[2018.05.26-16.10.37:221][426]LogGeometryMode: Warning: Unable to find 1 Poly(s) in new BSP
+[2018.05.26-16.10.37:221][426]LogGeometryMode: Warning: Unable to resolve BoxBrush2_2 Brush in new BSP, see above
+[2018.05.26-16.10.37:221][426]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.05.26-16.10.37:607][468]Cmd: TRANSACTION UNDO
+[2018.05.26-16.10.37:607][468]LogEditorTransaction: Undo Modifier [Edit]
+[2018.05.26-16.10.38:032][515]Cmd: TRANSACTION UNDO
+[2018.05.26-16.10.38:032][515]LogEditorTransaction: Undo Move Actors
+[2018.05.26-16.10.38:037][515]LogGeometryMode: Warning: Unable to find 2 Poly(s) in new BSP
+[2018.05.26-16.10.38:037][515]LogGeometryMode: Warning: Unable to resolve BoxBrush2_2 Brush in new BSP, see above
+[2018.05.26-16.10.38:037][515]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.05.26-16.10.38:402][555]Cmd: TRANSACTION UNDO
+[2018.05.26-16.10.38:402][555]LogEditorTransaction: Undo Modifier [Extrude]
+[2018.05.26-16.10.38:774][595]Cmd: TRANSACTION UNDO
+[2018.05.26-16.10.38:774][595]LogEditorTransaction: Undo Modifier [Extrude]
+[2018.05.26-16.10.39:140][636]Cmd: TRANSACTION UNDO
+[2018.05.26-16.10.39:140][636]LogEditorTransaction: Undo Select Brush Surface
+[2018.05.26-16.10.39:810][712]Cmd: TRANSACTION UNDO
+[2018.05.26-16.10.39:810][712]LogEditorTransaction: Undo Clicking on Actors
+[2018.05.26-16.10.40:802][828]Cmd: TRANSACTION UNDO
+[2018.05.26-16.10.40:802][828]LogEditorTransaction: Undo Modifier [Extrude]
+[2018.05.26-16.10.41:156][869]Cmd: TRANSACTION UNDO
+[2018.05.26-16.10.41:156][869]LogEditorTransaction: Undo Modifier [Extrude]
+[2018.05.26-16.10.41:477][907]Cmd: TRANSACTION UNDO
+[2018.05.26-16.10.41:477][907]LogEditorTransaction: Undo Clicking on Actors
+[2018.05.26-16.10.41:781][940]Cmd: TRANSACTION UNDO
+[2018.05.26-16.10.41:781][940]LogEditorTransaction: Undo Move Actors
+[2018.05.26-16.11.24:539][976]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.05.26-16.11.30:931][732]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.05.26-16.11.34:470][151]LogEditorViewport: Clicking on Actor (LMB): AI_C (AI)
+[2018.05.26-16.11.35:418][261]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor)
+[2018.05.26-16.11.36:173][348]LogEditorViewport: Clicking on Actor (CTRL LMB): AI_C (AI2)
+[2018.05.26-16.11.37:824][539]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cylinder5)
+[2018.05.26-16.11.38:276][590]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cylinder3)
+[2018.05.26-16.11.38:786][648]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cylinder)
+[2018.05.26-16.12.06:013][868]Cmd: TRANSACTION UNDO
+[2018.05.26-16.12.06:013][868]LogEditorTransaction: Undo Select Brush Surface
+[2018.05.26-16.12.06:283][895]Cmd: TRANSACTION UNDO
+[2018.05.26-16.12.06:283][895]LogEditorTransaction: Undo Move Actors
+[2018.05.26-16.12.06:590][928]Cmd: TRANSACTION UNDO
+[2018.05.26-16.12.06:590][928]LogEditorTransaction: Undo Move Actors
+[2018.05.26-16.12.22:020][753]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.05.26-16.14.52:837][545]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.05.26-16.15.00:910][475]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.05.26-16.18.24:070][ 45]LogSavePackage: Save=135.64ms
+[2018.05.26-16.18.24:070][ 45]LogSavePackage: Moving '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/ThirdPersonExampleMap4DB64A8E459300678FF2DCAD884F36D1.tmp' to '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.05.26-16.18.24:074][ 45]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.05.26-16.18.24:216][ 45]LogSavePackage: Save=98.83ms
+[2018.05.26-16.18.24:216][ 45]LogSavePackage: Moving '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/ThirdPersonExampleMap_BuiltDataE51EE3BE431D6CEBC255238D2BBD7D77.tmp' to '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.05.26-16.18.24:217][ 45]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2018.05.26-16.18.26:727][341]LogUProjectInfo: Found projects:
+[2018.05.26-16.28.00:805][710]Cmd: TRANSACTION UNDO
+[2018.05.26-16.28.00:805][710]LogEditorTransaction: Undo Move Actors
+[2018.05.26-16.28.00:808][710]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush3.BrushComponent0) Component already registered.
+[2018.05.26-16.28.00:810][710]LogGeometryMode: Warning: Unable to find 1 Edge(s) in new BSP
+[2018.05.26-16.28.00:810][710]LogGeometryMode: Warning: Unable to resolve BoxBrush4 Brush in new BSP, see above
+[2018.05.26-16.28.00:810][710]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.05.26-16.28.43:830][808]LogSavePackage: Save=120.51ms
+[2018.05.26-16.28.43:830][808]LogSavePackage: Moving '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/ThirdPersonExampleMap_Auto2220B34494492F6C7A674719586E0D476.tmp' to '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2018.05.26-16.28.43:832][808]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap
+[2018.05.26-16.28.43:834][808]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.149
+[2018.05.26-16.28.43:834][808]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.149
+[2018.05.26-16.28.53:506][968]LogGeometryMode: Warning: Unable to find LinearStairBrush Brush(s) in new BSP
+[2018.05.26-16.28.53:506][968]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.05.26-16.37.51:641][463]LogActorFactory: Actor Factory created Cube
+[2018.05.26-16.37.53:026][626]LogActorFactory: Actor Factory created Cube
+[2018.05.26-16.38.43:793][676]LogSavePackage: Save=118.59ms
+[2018.05.26-16.38.43:793][676]LogSavePackage: Moving '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/ThirdPersonExampleMap_Auto3B5262B214207462891918EA246293A4A.tmp' to '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap'
+[2018.05.26-16.38.43:796][676]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap
+[2018.05.26-16.38.43:798][676]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.145
+[2018.05.26-16.38.43:798][676]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.145
+[2018.05.26-16.43.23:709][245]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.05.26-16.43.24:506][333]Cmd: DELETE
+[2018.05.26-16.43.24:506][333]Cmd: ACTOR DELETE
+[2018.05.26-16.43.24:508][333]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.26-16.43.24:517][333]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.05.26-16.44.26:991][823]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2018.05.26-16.44.28:211][964]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder3)
+[2018.05.26-16.44.30:575][240]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder5)
+[2018.05.26-16.44.59:278][617]LogEditorViewport: Clicking on Actor (LMB): Brush (Linear Stair Brush)
+[2018.05.26-16.45.15:757][494]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2018.05.26-16.45.25:020][550]LogEditorViewport: Clicking on Actor (LMB): AI_C (AI2)
+[2018.05.26-16.46.16:478][544]Cmd: TRANSACTION UNDO
+[2018.05.26-16.46.16:478][544]LogEditorTransaction: Undo Move Actors
+[2018.05.26-16.46.20:409][987]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush)
+[2018.05.26-16.46.21:980][167]Cmd: DELETE
+[2018.05.26-16.46.21:980][167]Cmd: ACTOR DELETE
+[2018.05.26-16.46.21:983][167]LogEditorActor: Deleted Actor: Brush
+[2018.05.26-16.46.21:997][167]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2018.05.26-16.46.22:780][255]Cmd: DELETE
+[2018.05.26-16.46.22:781][255]Cmd: ACTOR DELETE
+[2018.05.26-16.46.22:784][255]LogEditorActor: Deleted Actor: Brush
+[2018.05.26-16.46.22:795][255]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2018.05.26-16.46.30:364][161]Cmd: TRANSACTION UNDO
+[2018.05.26-16.46.30:364][161]LogEditorTransaction: Undo Delete Actors
+[2018.05.26-16.46.48:885][370]Cmd: DELETE
+[2018.05.26-16.46.48:885][370]Cmd: ACTOR DELETE
+[2018.05.26-16.46.48:888][370]LogEditorActor: Deleted Actor: Brush
+[2018.05.26-16.46.48:899][370]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2018.05.26-16.46.55:734][158]Cmd: DELETE
+[2018.05.26-16.46.55:734][158]Cmd: ACTOR DELETE
+[2018.05.26-16.46.55:736][158]LogEditorActor: Deleted Actor: Brush
+[2018.05.26-16.46.55:748][158]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2018.05.26-16.46.59:075][528]Cmd: DELETE
+[2018.05.26-16.46.59:075][528]Cmd: ACTOR DELETE
+[2018.05.26-16.46.59:077][528]LogEditorActor: Deleted Actor: Brush
+[2018.05.26-16.46.59:088][528]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2018.05.26-16.47.13:868][293]LogEditorViewport: Clicking on Actor (LMB): AI_C (AI4)
+[2018.05.26-16.47.34:493][707]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.05.26-16.47.49:758][523]Cmd: TRANSACTION UNDO
+[2018.05.26-16.47.49:758][523]LogEditorTransaction: Undo Move Actors
+[2018.05.26-16.47.49:761][523]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush4.BrushComponent0) Component already registered.
+[2018.05.26-16.49.01:237][860]Cmd: BRUSH SUBTRACT SELECTNEWBRUSH
+[2018.05.26-16.49.14:042][336]Cmd: TRANSACTION UNDO
+[2018.05.26-16.49.14:042][336]LogEditorTransaction: Undo Move Actors
+[2018.05.26-16.49.14:044][336]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush4.BrushComponent0) Component already registered.
+[2018.05.26-16.49.14:047][336]LogGeometryMode: Warning: Unable to find 1 Poly(s) in new BSP
+[2018.05.26-16.49.14:047][336]LogGeometryMode: Warning: Unable to resolve BoxBrush2 Brush in new BSP, see above
+[2018.05.26-16.49.14:047][336]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.05.26-16.49.33:078][545]Cmd: TRANSACTION UNDO
+[2018.05.26-16.49.33:078][545]LogEditorTransaction: Undo Move Actors
+[2018.05.26-16.49.33:080][545]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush4.BrushComponent0) Component already registered.
+[2018.05.26-16.49.33:082][545]LogGeometryMode: Warning: Unable to find 1 Poly(s) in new BSP
+[2018.05.26-16.49.33:082][545]LogGeometryMode: Warning: Unable to resolve BoxBrush2 Brush in new BSP, see above
+[2018.05.26-16.49.33:082][545]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.05.26-16.50.19:779][949]Cmd: TRANSACTION UNDO
+[2018.05.26-16.50.19:779][949]LogEditorTransaction: Undo Move Actors
+[2018.05.26-16.50.19:782][949]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush4.BrushComponent0) Component already registered.
+[2018.05.26-16.50.19:784][949]LogGeometryMode: Warning: Unable to find 1 Poly(s) in new BSP
+[2018.05.26-16.50.19:784][949]LogGeometryMode: Warning: Unable to resolve BoxBrush2 Brush in new BSP, see above
+[2018.05.26-16.50.19:784][949]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.05.26-16.50.25:635][633]LogGeometryMode: Warning: Unable to find BoxBrush_11 Brush(s) in new BSP
+[2018.05.26-16.50.25:635][633]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.05.26-16.50.38:126][117]Cmd: TRANSACTION UNDO
+[2018.05.26-16.50.38:126][117]LogEditorTransaction: Undo Move Actors
+[2018.05.26-16.50.38:130][117]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush_13.BrushComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.26-16.50.59:900][682]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.26-16.50.59:913][682]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.05.26-16.50.59:914][682]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.26-16.50.59:914][682]PIE: New page: PIE session: ThirdPersonExampleMap (May 26, 2018, 8:50:59 PM)
+[2018.05.26-16.50.59:914][682]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.05.26-16.50.59:931][682]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017543s)
+[2018.05.26-16.50.59:932][682]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.05.26-16.50.59:933][682]LogPlayLevel: PIE: World Init took: (0.001330s)
+[2018.05.26-16.50.59:933][682]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019293s)
+[2018.05.26-16.50.59:950][682]LogInit: XAudio2 using 'Casque (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.26-16.50.59:957][682]LogInit: FAudioDevice initialized.
+[2018.05.26-16.50.59:991][682]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.05.26-16.50.59:993][682]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.05.26-18.50.59
+[2018.05.26-16.50.59:994][682]LogWorld: Bringing up level for play took: 0.001738
+[2018.05.26-16.50.59:995][682]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.719
+[2018.05.26-16.50.59:995][682]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.05.26-16.51.25:822][776]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.05.26-16.51.25:855][776]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.05.26-16.51.29:017][147]LogEditorViewport: Clicking on Actor (LMB): AI_C (AI)
+[2018.05.26-16.51.29:674][222]LogEditorViewport: Clicking on Actor (CTRL LMB): AI_C (AI2)
+[2018.05.26-16.51.34:802][828]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2018.05.26-16.51.48:335][411]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.05.26-16.52.35:359][680]LogGeometryMode: Warning: Unable to find BoxBrush_11 Brush(s) in new BSP
+[2018.05.26-16.52.35:359][680]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.05.26-16.53.23:120][486]LogSavePackage: Save=177.58ms
+[2018.05.26-16.53.23:120][486]LogSavePackage: Moving '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/ThirdPersonExampleMap_Auto4B62F96754812F2957DAE819F2A4B12CD.tmp' to '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto4.umap'
+[2018.05.26-16.53.23:123][486]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto4.umap
+[2018.05.26-16.53.23:125][486]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.217
+[2018.05.26-16.53.23:125][486]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.217
+[2018.05.26-16.56.11:342][391]LogGeometryMode: Warning: Unable to find BoxBrush4 Brush(s) in new BSP
+[2018.05.26-16.56.11:342][391]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.05.26-16.56.17:673][ 64]LogGeometryMode: Warning: Unable to find BoxBrush3_16 Brush(s) in new BSP
+[2018.05.26-16.56.17:673][ 64]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.05.26-16.56.24:683][868]LogGeometryMode: Warning: Unable to find BoxBrush3_16 Brush(s) in new BSP
+[2018.05.26-16.56.24:683][868]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.05.26-16.56.53:463][219]LogEditorViewport: Clicking on Actor (LMB): AI_C (AI4)
+[2018.05.26-16.57.36:257][242]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.05.26-16.58.27:193][997]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.05.26-17.00.26:923][195]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.05.26-17.00.40:462][736]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2018.05.26-17.01.15:337][704]LogGeometryMode: Warning: Unable to find BoxBrush5 Brush(s) in new BSP
+[2018.05.26-17.01.15:337][704]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.05.26-17.01.56:783][584]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.05.26-17.03.15:178][745]LogGeometryMode: Warning: Unable to find BoxBrush_11 Brush(s) in new BSP
+[2018.05.26-17.03.15:178][745]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.05.26-17.03.31:142][550]MapCheck: New page: Map Check
+[2018.05.26-17.03.31:177][550]Cmd: MAP REBUILD ALLVISIBLE
+[2018.05.26-17.03.31:181][550]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.05.26-17.03.31:273][550]LightingResults: New page: Lighting Build - May 26, 2018, 9:03:31 PM
+[2018.05.26-17.03.31:463][550]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.05.26-17.03.31:508][550]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.05.26-17.03.31:574][550]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.05.26-17.03.33:860][550]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.05.26-17.03.33:861][550]LogSwarmInterface: [TryOpenConnection] Local Process ID is 12028
+[2018.05.26-17.03.36:176][550]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.05.26-17.03.36:176][550]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.05.26-17.03.36:176][550]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.05.26-17.03.36:176][550]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.05.26-17.03.36:176][550]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.05.26-17.03.36:453][550]LogEditorBuildUtils: Build time 0:05
+[2018.05.26-17.03.36:481][550]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_1, compiling. 
+[2018.05.26-17.03.36:487][550]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_1, compiling. 
+[2018.05.26-17.03.36:508][551]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer CubeMaterial, compiling. 
+[2018.05.26-17.03.36:515][551]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer CubeMaterial, compiling. 
+[2018.05.26-17.03.36:547][552]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2018.05.26-17.03.36:553][552]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2018.05.26-17.03.42:166][917]Job is a success!
+[2018.05.26-17.03.42:347][918]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.021s
+[2018.05.26-17.03.42:347][918]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.05.26-17.03.42:347][918]LogVolumetricLightmapImport:      BrickData 680x5x5 = 0.5Mb
+[2018.05.26-17.03.42:347][918]LogVolumetricLightmapImport:      Bricks at Level
+[2018.05.26-17.03.42:347][918]LogVolumetricLightmapImport:          0: 0.7% covering 100.0% of volume
+[2018.05.26-17.03.42:347][918]LogVolumetricLightmapImport:          1: 6.6% covering 14.1% of volume
+[2018.05.26-17.03.42:347][918]LogVolumetricLightmapImport:          2: 92.6% covering 3.1% of volume
+[2018.05.26-17.03.42:766][918]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2018.05.26-17.03.42:766][918]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2018.05.26-17.03.42:766][918]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2018.05.26-17.03.42:766][918]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 512X256)
+[2018.05.26-17.03.42:766][918]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 512X512)
+[2018.05.26-17.03.42:766][918]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 512X512)
+[2018.05.26-17.03.42:766][918]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 64X32)
+[2018.05.26-17.03.42:766][918]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2018.05.26-17.03.42:766][918]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2018.05.26-17.03.42:872][918]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 32X32)
+[2018.05.26-17.03.42:872][918]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 256X256)
+[2018.05.26-17.03.42:872][918]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X512)
+[2018.05.26-17.03.42:947][918]Lightmass on K104-0060: 4.24 sec total, 146 ms importing, 17 ms setup, 1.06 sec photons, 2.61 sec processing, 0 ms extra exporting [68/68 mappings]. Threads: 18.1 sec total, 3.65 sec processing.
+[2018.05.26-17.03.42:969][918]LogStaticLightingSystem: Illumination: 11.5 sec (333 ms encoding lightmaps, 103 ms encoding shadowmaps)
+[2018.05.26-17.03.42:969][918]LogStaticLightingSystem: Lightmap texture memory:  3.3 MB (2.7 MB streaming, 0.7 MB non-streaming), 6 textures
+[2018.05.26-17.03.42:969][918]LogStaticLightingSystem: Shadowmap texture memory: 0.8 MB (0.7 MB streaming, 0.1 MB non-streaming), 3 textures
+[2018.05.26-17.03.43:159][918]DumpUnbuiltLightIteractions
+[2018.05.26-17.03.43:159][918]Lights with unbuilt interactions: 0
+[2018.05.26-17.03.43:161][918]
+[2018.05.26-17.03.43:161][918]Primitives with unbuilt interactions: 0
+[2018.05.26-17.03.43:169][919]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.05.26-17.03.43:170][919]MapCheck: New page: ThirdPersonExampleMap - May 26, 2018, 9:03:43 PM
+[2018.05.26-17.03.43:340][919]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 170.156ms to complete.
+[2018.05.26-17.03.47:487][398]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.05.26-17.04.14:872][600]Cmd: TRANSACTION UNDO
+[2018.05.26-17.04.14:872][600]LogEditorTransaction: Undo Edit Source Radius
+[2018.05.26-17.04.38:989][457]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2018.05.26-17.04.42:564][872]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2018.05.26-17.04.44:350][ 77]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2018.05.26-17.05.33:812][949]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2018.05.26-17.05.41:630][844]LogSavePackage: Save=157.35ms
+[2018.05.26-17.05.41:630][844]LogSavePackage: Moving '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/ThirdPersonExampleMapEDB60E644EE07F356812699DBFC59B64.tmp' to '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.05.26-17.05.41:633][844]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.05.26-17.05.41:756][844]LogSavePackage: Save=80.35ms
+[2018.05.26-17.05.41:756][844]LogSavePackage: Moving '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/ThirdPersonExampleMap_BuiltData97A277D144309787C0C351AB61D9976E.tmp' to '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.05.26-17.05.41:759][844]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
