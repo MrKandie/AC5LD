@@ -1,4 +1,4 @@
-﻿Log file open, 05/29/18 13:37:27
+﻿Log file open, 05/30/18 10:28:52
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: ACProject
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(709731576) SRandInit(709731576).
+LogInit: Display: RandInit(1826802158) SRandInit(1826802158).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.164328
+LogStats: Stats thread started at 0.187083
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -196,832 +196,576 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.05.29-11.37.28:536][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.29-11.37.28:536][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.05.29-11.37.28:643][  0]LogInit: Computer: K104-0060
-[2018.05.29-11.37.28:643][  0]LogInit: User: qroze
-[2018.05.29-11.37.28:643][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.05.29-11.37.28:643][  0]LogInit: High frequency timer resolution =3.903994 MHz
-[2018.05.29-11.37.28:644][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.05.29-11.37.28:644][  0]LogMemory: Platform Memory Stats for Windows
-[2018.05.29-11.37.28:644][  0]LogMemory: Process Physical Memory: 275.79 MB used, 275.79 MB peak
-[2018.05.29-11.37.28:644][  0]LogMemory: Process Virtual Memory: 269.75 MB used, 269.75 MB peak
-[2018.05.29-11.37.28:644][  0]LogMemory: Physical Memory: 6424.42 MB used,  9902.51 MB free, 16326.93 MB total
-[2018.05.29-11.37.28:644][  0]LogMemory: Virtual Memory: 682.88 MB used,  9902.51 MB free, 134217728.00 MB total
-[2018.05.29-11.37.28:811][  0]LogInit: Using OS detected language (fr-FR).
-[2018.05.29-11.37.28:811][  0]LogInit: Using OS detected locale (fr-FR).
-[2018.05.29-11.37.28:813][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the language.
-[2018.05.29-11.37.28:813][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the locale.
-[2018.05.29-11.37.29:153][  0]LogInit: Setting process to per monitor DPI aware
-[2018.05.29-11.37.29:346][  0]LogD3D11RHI: D3D11 adapters:
-[2018.05.29-11.37.29:378][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
-[2018.05.29-11.37.29:378][  0]LogD3D11RHI:       2016/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.05.29-11.37.29:379][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.05.29-11.37.29:380][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.05.29-11.37.29:380][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.05.29-11.37.29:385][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.05.29-11.37.29:385][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
-[2018.05.29-11.37.29:385][  0]LogWindows: EnumDisplayDevices:
-[2018.05.29-11.37.29:385][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
-[2018.05.29-11.37.29:386][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2018.05.29-11.37.29:386][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2018.05.29-11.37.29:386][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2018.05.29-11.37.29:386][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.05.29-11.37.29:386][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
-[2018.05.29-11.37.29:386][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.05.29-11.37.29:386][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.05.29-11.37.29:386][  0]LogRHI: Texture pool is 1411 MB (70% of 2016 MB)
-[2018.05.29-11.37.29:405][  0]LogD3D11RHI: Async texture creation enabled
-[2018.05.29-11.37.29:418][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.05.29-11.37.29:419][  0]LogShaderCompilers: Guid format shader working directory is -47 characters bigger than the processId version (../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Intermediate/Shaders/WorkingDirectory/2544/).
-[2018.05.29-11.37.29:420][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/q.roze/AppData/Local/Temp/UnrealShaderWorkingDir/F1BB43D54FE2CA5F082DABB69CDD6841/'.
-[2018.05.29-11.37.29:420][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.05.29-11.37.30:316][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.05.29-11.37.30:363][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.05.29-11.37.30:414][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.05.29-11.37.30:458][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.05.29-11.37.30:501][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.05.29-11.37.30:547][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.05.29-11.37.30:593][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.05.29-11.37.30:638][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.05.29-11.37.30:678][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.05.29-11.37.30:724][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.05.29-11.37.30:770][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.05.29-11.37.30:817][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.05.29-11.37.30:860][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.05.29-11.37.30:902][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.05.29-11.37.31:023][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.05.29-11.37.31:023][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.05.29-11.37.31:077][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.05.29-11.37.31:121][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.05.29-11.37.31:247][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.05.29-11.37.31:274][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.05.29-11.37.31:318][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.05.29-11.37.31:364][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.05.29-11.37.31:407][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.05.29-11.37.31:453][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.05.29-11.37.31:453][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.05.29-11.37.31:865][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.05.29-11.37.31:928][  0]LogDerivedDataCache: Loaded boot cache 0.06s 79MB C:/Users/q.roze/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.05.29-11.37.31:928][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/q.roze/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.05.29-11.37.31:929][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.05.29-11.37.31:929][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.05.29-11.37.31:929][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.05.29-11.37.31:929][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.05.29-11.37.31:943][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.05.29-11.37.31:956][  0]LogDerivedDataCache: Using Local data cache path C:/Users/q.roze/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.05.29-11.37.31:965][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.05.29-11.37.31:965][  0]LogSlate: Using Freetype 2.6.0
-[2018.05.29-11.37.31:966][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.29-11.37.31:966][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.29-11.37.32:290][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.29-11.37.32:596][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.05.29-11.37.32:631][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.05.29-11.37.32:631][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.05.29-11.37.32:631][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.05.29-11.37.32:631][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.05.29-11.37.32:631][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.05.29-11.37.32:655][  0]LogNetVersion: ACProject , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 598294695)
-[2018.05.29-11.37.32:792][  0]LogAssetRegistry: FAssetRegistry took 0.0254 seconds to start up
-[2018.05.29-11.37.33:192][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.034132 seconds
-[2018.05.29-11.37.33:198][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.05.29-11.37.33:198][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
-[2018.05.29-11.37.33:198][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.05.29-11.37.33:244][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.05.29-11.37.35:628][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.05.29-11.37.35:683][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.05.29-11.37.36:364][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.05.29-11.37.36:747][  0]SourceControl: Source control is disabled
-[2018.05.29-11.37.36:747][  0]SourceControl: Source control is disabled
-[2018.05.29-11.37.36:797][  0]SourceControl: Source control is disabled
-[2018.05.29-11.37.36:844][  0]SourceControl: Source control is disabled
-[2018.05.29-11.37.37:597][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.05.29-11.37.37:829][  0]LogOcInput: OculusInput pre-init called
-[2018.05.29-11.37.38:080][  0]LogEngine: Initializing Engine...
-[2018.05.29-11.37.38:082][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.05.29-11.37.38:249][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.05.29-11.37.38:249][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.05.29-11.37.38:378][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.05.29-11.37.38:385][  0]LogInit: XAudio2 using 'Audio numérique (SPDIF) (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.05.29-11.37.38:403][  0]LogInit: FAudioDevice initialized.
-[2018.05.29-11.37.38:512][  0]LogDerivedDataCache: Saved boot cache 0.11s 79MB C:/Users/q.roze/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.05.29-11.37.38:537][  0]LogInit: Texture streaming: Enabled
-[2018.05.29-11.37.38:640][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.05.29-11.37.38:752][  0]LogInit: Transaction tracking system initialized
-[2018.05.29-11.37.39:044][  0]BlueprintLog: New page: Editor Load
-[2018.05.29-11.37.39:795][  0]LocalizationService: Localization service is disabled
-[2018.05.29-11.37.40:558][  0]LogConsoleResponse: Display: 
-[2018.05.29-11.37.40:727][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.05.29-11.37.40:727][  0]LogCook: Display: Mobile HDR setting 1
-[2018.05.29-11.37.40:727][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.05.29-11.37.41:011][  0]LogFileCache: Scanning file cache for directory 'C:/Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/' took 0.02s
-[2018.05.29-11.37.41:792][  0]SourceControl: Source control is disabled
-[2018.05.29-11.37.41:792][  0]LightingResults: New page: Lighting Build
-[2018.05.29-11.37.41:827][  0]MapCheck: New page: Map Check
-[2018.05.29-11.37.41:827][  0]LightingResults: New page: Lighting Build
-[2018.05.29-11.37.44:959][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.05.29-11.37.44:976][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.05.29-11.37.44:988][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.05.29-11.37.45:035][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 46.6ms to complete.
-[2018.05.29-11.37.45:035][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 3.243
-[2018.05.29-11.37.45:284][  0]LogCollectionManager: Loaded 0 collections in 0.001845 seconds
-[2018.05.29-11.37.45:355][  0]LogFileCache: Scanning file cache for directory 'C:/Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/Collections/' took 0.01s
-[2018.05.29-11.37.45:355][  0]LogFileCache: Scanning file cache for directory 'C:/Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/Developers/qroze/Collections/' took 0.01s
-[2018.05.29-11.37.45:356][  0]LogFileCache: Scanning file cache for directory 'C:/Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/Collections/' took 0.01s
-[2018.05.29-11.37.45:356][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.05.29-11.37.45:362][  0]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 2363 classes and 519 folders.
-[2018.05.29-11.37.45:418][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.05.29-11.37.47:112][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2018.05.29-11.37.47:208][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2018.05.29-11.37.47:303][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0002 seconds. Added 2 classes and 3 folders.
-[2018.05.29-11.37.47:381][  0]LogSlate: Took 0.000412 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.05.29-11.37.47:384][  0]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.05.29-11.37.47:403][  0]LogSlate: Took 0.014144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.05.29-11.37.47:722][  0]LogRenderer: Reallocating scene render targets to support 1096x552 Format 10 NumSamples 1 (Frame:1).
-[2018.05.29-11.37.47:956][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2018.05.29-11.37.47:956][  0]LogLoad: (Engine Initialization) Total time: 22.25 seconds
-[2018.05.29-11.37.47:956][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.05.29-11.37.47:956][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.05.29-11.37.48:333][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.05.29-11.37.48:752][  0]LogSlate: Took 0.127190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.29-11.37.49:455][  3]LogAssetRegistry: Asset discovery search completed in 16.6862 seconds
-[2018.05.29-11.37.49:461][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.05.29-11.37.49:461][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000240 seconds (updated 0 objects)
-[2018.05.29-11.42.12:410][630]Cmd: TRANSACTION UNDO
-[2018.05.29-11.42.12:410][630]LogEditorTransaction: Undo Move Actors
-[2018.05.29-11.42.12:414][630]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush3_16.BrushComponent0) Component already registered.
-[2018.05.29-11.42.12:416][630]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush7.BrushComponent0) Component already registered.
-[2018.05.29-11.42.12:426][630]LogGeometryMode: Warning: Unable to find 1 Poly(s) in new BSP
-[2018.05.29-11.42.12:426][630]LogGeometryMode: Warning: Unable to resolve BoxBrush12 Brush in new BSP, see above
-[2018.05.29-11.42.12:426][630]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2018.05.29-11.42.12:439][630]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.29-11.42.12:813][670]Cmd: TRANSACTION UNDO
-[2018.05.29-11.42.12:813][670]LogEditorTransaction: Undo Move Actors
-[2018.05.29-11.42.12:816][670]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush3_16.BrushComponent0) Component already registered.
-[2018.05.29-11.42.12:818][670]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush7.BrushComponent0) Component already registered.
-[2018.05.29-11.42.12:820][670]LogGeometryMode: Warning: Unable to find 1 Poly(s) in new BSP
-[2018.05.29-11.42.12:820][670]LogGeometryMode: Warning: Unable to resolve BoxBrush12 Brush in new BSP, see above
-[2018.05.29-11.42.12:820][670]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2018.05.29-11.43.00:103][200]LogGeometryMode: Warning: Unable to find BoxBrush_11 Brush(s) in new BSP
-[2018.05.29-11.43.00:103][200]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2018.05.29-11.43.34:207][944]LogGeometryMode: Warning: Unable to find BoxBrush10 Brush(s) in new BSP
-[2018.05.29-11.43.34:207][944]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2018.05.29-11.43.39:458][534]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2018.05.29-11.44.40:340][819]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor)
-[2018.05.29-11.45.10:743][399]Cmd: TRANSACTION UNDO
-[2018.05.29-11.45.10:743][399]LogEditorTransaction: Undo Move Actors
-[2018.05.29-11.45.10:746][399]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
-[2018.05.29-11.45.10:748][399]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.LinearStairBrush.BrushComponent0) Component already registered.
-[2018.05.29-11.46.10:703][289]LogGeometryMode: Warning: Unable to find BoxBrush3_16 Brush(s) in new BSP
-[2018.05.29-11.46.10:703][289]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2018.05.29-11.46.11:574][389]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.05.29-11.46.36:321][244]LogSlate: Took 0.000124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.29-11.46.36:525][244]LogSavePackage: Save=172.27ms
-[2018.05.29-11.46.36:525][244]LogSavePackage: Moving '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/ThirdPersonExampleMapB921A5B6491E30DB13BA958D1177BE4D.tmp' to '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2018.05.29-11.46.36:532][244]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
-[2018.05.29-11.46.36:735][244]LogSavePackage: Save=148.32ms
-[2018.05.29-11.46.36:735][244]LogSavePackage: Moving '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/ThirdPersonExampleMap_BuiltDataFD24776442B22735D24724B014F70160.tmp' to '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
-[2018.05.29-11.46.36:737][244]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
-[2018.05.29-11.56.17:444][537]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.05.29-11.58.18:186][663]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.05.29-11.58.28:958][881]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.05.29-11.58.35:154][554]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.05.29-11.58.49:063][130]LogGeometryMode: Warning: Unable to find BoxBrush4 Brush(s) in new BSP
-[2018.05.29-11.58.49:063][130]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2018.05.29-11.58.54:689][782]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.05.29-11.59.07:673][247]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.05.29-11.59.18:497][516]LogSavePackage: Save=148.38ms
-[2018.05.29-11.59.18:497][516]LogSavePackage: Moving '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/ThirdPersonExampleMap1C036F6B4E98A3EEB9D846AF79E423C7.tmp' to '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2018.05.29-11.59.18:502][516]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
-[2018.05.29-11.59.18:672][516]LogSavePackage: Save=106.75ms
-[2018.05.29-11.59.18:672][516]LogSavePackage: Moving '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/ThirdPersonExampleMap_BuiltData2EF03D5444A8094E449811B9F9B7D034.tmp' to '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
-[2018.05.29-11.59.18:673][516]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
-[2018.05.29-13.28.21:244][945]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
-[2018.05.29-13.28.48:466][158]LogGeometryMode: Warning: Unable to find BoxBrush5 Brush(s) in new BSP
-[2018.05.29-13.28.48:466][158]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2018.05.29-13.29.05:767][186]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.05.29-13.29.17:975][632]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2018.05.29-13.30.05:528][275]Cmd: DELETE
-[2018.05.29-13.30.05:528][275]Cmd: ACTOR DELETE
-[2018.05.29-13.30.05:532][275]LogEditorActor: Deleted Actor: Brush
-[2018.05.29-13.30.05:548][275]LogEditorActor: Deleted 1 Actors (0.020 secs)
-[2018.05.29-13.30.06:913][436]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2018.05.29-13.30.18:918][857]Cmd: TRANSACTION UNDO
-[2018.05.29-13.30.18:918][857]LogEditorTransaction: Undo Move Actors
-[2018.05.29-13.30.18:924][857]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush11.BrushComponent0) Component already registered.
-[2018.05.29-13.30.18:924][857]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush7.BrushComponent0) Component already registered.
-[2018.05.29-13.30.31:977][387]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.05.29-13.30.39:811][296]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2018.05.29-13.31.04:081][177]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.05.29-13.31.14:748][416]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.05.29-13.31.31:244][307]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.05.29-13.31.47:140][ 89]LogDialogs: Warning: Suppressed: Extrude only works with Local Coordinates System
-[2018.05.29-13.31.54:569][977]LogActorFactory: Actor Factory created Cube
-[2018.05.29-13.31.55:346][ 69]LogActorFactory: Actor Factory created Cube
-[2018.05.29-13.31.56:158][162]Cmd: DELETE
-[2018.05.29-13.31.56:158][162]Cmd: ACTOR DELETE
-[2018.05.29-13.31.56:162][162]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.05.29-13.31.56:170][162]LogEditorActor: Deleted 1 Actors (0.013 secs)
-[2018.05.29-13.32.01:437][792]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2018.05.29-13.32.41:971][551]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
-[2018.05.29-13.32.57:288][281]LogGeometryMode: Warning: Unable to find LinearStairBrush2 Brush(s) in new BSP
-[2018.05.29-13.32.57:288][281]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2018.05.29-13.33.32:698][441]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.05.29-13.33.40:402][350]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.05.29-13.34.08:611][678]Cmd: TRANSACTION UNDO
-[2018.05.29-13.34.08:611][678]LogEditorTransaction: Undo Modifier [Edit]
-[2018.05.29-13.34.08:612][678]LogGeometryMode: Warning: Unable to find BoxBrush14 Brush(s) in new BSP
-[2018.05.29-13.34.08:612][678]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2018.05.29-13.34.17:824][760]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.05.29-13.34.37:573][ 42]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder5)
-[2018.05.29-13.35.18:448][873]LogEditorViewport: Clicking Background
-[2018.05.29-13.35.24:473][594]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder7)
-[2018.05.29-13.35.26:192][793]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.05.29-13.35.33:864][695]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder6)
-[2018.05.29-13.35.35:060][833]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cylinder7)
-[2018.05.29-13.35.35:620][895]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cylinder8)
-[2018.05.29-13.35.39:563][360]Cmd: TRANSACTION UNDO
-[2018.05.29-13.35.39:563][360]LogEditorTransaction: Undo Scale Actors
-[2018.05.29-13.35.40:443][458]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder6)
-[2018.05.29-13.35.50:637][668]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder7)
-[2018.05.29-13.35.53:013][948]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder6)
-[2018.05.29-13.35.54:420][ 92]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder7)
-[2018.05.29-13.35.56:648][354]Cmd: DELETE
-[2018.05.29-13.35.56:648][354]Cmd: ACTOR DELETE
-[2018.05.29-13.35.56:653][354]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.05.29-13.35.56:662][354]LogEditorActor: Deleted 1 Actors (0.013 secs)
-[2018.05.29-13.35.56:908][383]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder8)
-[2018.05.29-13.35.56:958][384]Cmd: DELETE
-[2018.05.29-13.35.56:958][384]Cmd: ACTOR DELETE
-[2018.05.29-13.35.56:963][384]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.05.29-13.35.56:971][384]LogEditorActor: Deleted 1 Actors (0.013 secs)
-[2018.05.29-13.35.57:495][446]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder6)
-[2018.05.29-13.36.39:365][417]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder8)
-[2018.05.29-13.37.02:147][117]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder8)
-[2018.05.29-13.37.27:806][155]LogSavePackage: Save=198.34ms
-[2018.05.29-13.37.27:806][155]LogSavePackage: Moving '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/ThirdPersonExampleMap_Auto188757D134215F1B0056007BBEA8B3186.tmp' to '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
-[2018.05.29-13.37.27:808][155]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
-[2018.05.29-13.37.27:815][155]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.232
-[2018.05.29-13.37.27:815][155]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.232
-[2018.05.29-13.40.33:533][368]Cmd: TRANSACTION UNDO
-[2018.05.29-13.40.33:533][368]LogEditorTransaction: Undo Move Actors
-[2018.05.29-13.40.34:174][440]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder7)
-[2018.05.29-13.40.34:910][523]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder8)
-[2018.05.29-13.40.38:650][929]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder7)
-[2018.05.29-13.40.39:365][ 10]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder8)
-[2018.05.29-13.40.41:718][265]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder7)
-[2018.05.29-13.40.42:224][321]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cylinder6)
-[2018.05.29-13.41.11:873][721]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.05.29-13.41.26:017][377]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.05.29-13.41.50:654][245]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.05.29-13.42.00:916][460]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder7)
-[2018.05.29-13.42.02:286][619]Cmd: DELETE
-[2018.05.29-13.42.02:303][619]Cmd: ACTOR DELETE
-[2018.05.29-13.42.02:309][619]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.05.29-13.42.02:318][619]LogEditorActor: Deleted 1 Actors (0.014 secs)
-[2018.05.29-13.42.02:698][664]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder8)
-[2018.05.29-13.42.30:080][908]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder8)
-[2018.05.29-13.42.37:030][733]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush12)
-[2018.05.29-13.42.49:391][174]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
-[2018.05.29-13.42.49:391][174]LogGeometryMode: Warning: Unable to find LightmassImportanceVolume_0 Brush(s) in new BSP
-[2018.05.29-13.42.49:391][174]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2018.05.29-13.42.50:909][349]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2018.05.29-13.42.59:037][311]LogEditorViewport: Clicking Background
-[2018.05.29-13.43.11:085][755]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.05.29-13.45.09:516][934]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.05.29-13.47.27:861][449]LogSavePackage: Save=207.74ms
-[2018.05.29-13.47.27:861][449]LogSavePackage: Moving '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/ThirdPersonExampleMap_Auto29BEAF15D426BC0C384FDD7BF593952F5.tmp' to '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
-[2018.05.29-13.47.27:863][449]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap
-[2018.05.29-13.47.27:865][449]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.237
-[2018.05.29-13.47.27:865][449]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.237
-[2018.05.29-13.52.04:918][578]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder8)
-[2018.05.29-13.52.34:286][ 59]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.05.29-13.53.00:950][235]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder8)
-[2018.05.29-13.53.36:188][419]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2018.05.29-13.53.57:821][887]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2018.05.29-13.54.06:517][905]Cmd: TRANSACTION UNDO
-[2018.05.29-13.54.06:517][905]LogEditorTransaction: Undo Move Actors
-[2018.05.29-13.54.06:524][905]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush14.BrushComponent0) Component already registered.
-[2018.05.29-13.54.06:524][905]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.LinearStairBrush3.BrushComponent0) Component already registered.
-[2018.05.29-13.54.33:456][ 64]Cmd: TRANSACTION UNDO
-[2018.05.29-13.54.33:456][ 64]LogEditorTransaction: Undo Move Actors
-[2018.05.29-13.54.33:463][ 64]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush14.BrushComponent0) Component already registered.
-[2018.05.29-13.54.33:463][ 64]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.LinearStairBrush3.BrushComponent0) Component already registered.
-[2018.05.29-13.54.59:796][ 80]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.05.29-13.55.11:537][441]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder9)
-[2018.05.29-13.55.12:316][528]Cmd: DELETE
-[2018.05.29-13.55.12:316][528]Cmd: ACTOR DELETE
-[2018.05.29-13.55.12:322][528]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.05.29-13.55.12:331][528]LogEditorActor: Deleted 1 Actors (0.015 secs)
-[2018.05.29-13.55.12:946][601]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder6)
-[2018.05.29-13.55.13:027][605]Cmd: DELETE
-[2018.05.29-13.55.13:027][605]Cmd: ACTOR DELETE
-[2018.05.29-13.55.13:033][605]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.05.29-13.55.13:042][605]LogEditorActor: Deleted 1 Actors (0.015 secs)
-[2018.05.29-13.55.13:611][673]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder8)
-[2018.05.29-13.57.28:839][338]LogSavePackage: Save=265.03ms
-[2018.05.29-13.57.28:839][338]LogSavePackage: Moving '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/ThirdPersonExampleMap_Auto394EEDB5B41DA2A4261FECCB5ECC5BA3D.tmp' to '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap'
-[2018.05.29-13.57.28:842][338]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap
-[2018.05.29-13.57.28:845][338]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.320
-[2018.05.29-13.57.28:845][338]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.320
-[2018.05.29-14.04.29:313][605]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.05.29-14.04.30:010][683]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.05.29-14.06.19:169][ 40]LogGeometryMode: Warning: Unable to find BoxBrush14 Brush(s) in new BSP
-[2018.05.29-14.06.19:169][ 40]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2018.05.29-14.06.43:352][819]LogGeometryMode: Warning: Unable to find BoxBrush15 Brush(s) in new BSP
-[2018.05.29-14.06.43:352][819]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2018.05.29-14.06.58:010][462]LogGeometryMode: Warning: Unable to find BoxBrush16 Brush(s) in new BSP
-[2018.05.29-14.06.58:010][462]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2018.05.29-14.07.26:451][755]LogGeometryMode: Warning: Unable to find BoxBrush8 Brush(s) in new BSP
-[2018.05.29-14.07.26:452][755]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2018.05.29-14.08.01:985][928]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2018.05.29-14.08.38:671][ 88]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.05.29-14.09.01:352][735]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.05.29-14.09.04:762][122]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.05.29-14.09.17:436][533]LogGeometryMode: Warning: Unable to find BoxBrush14 Brush(s) in new BSP
-[2018.05.29-14.09.17:437][533]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2018.05.29-14.09.46:493][841]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.05.29-14.10.21:156][810]Cmd: TRANSACTION UNDO
-[2018.05.29-14.10.21:156][810]LogEditorTransaction: Undo Move Actors
-[2018.05.29-14.10.21:169][810]LogGeometryMode: Warning: Unable to find 1 Poly(s) in new BSP
-[2018.05.29-14.10.21:169][810]LogGeometryMode: Warning: Unable to resolve BoxBrush20 Brush in new BSP, see above
-[2018.05.29-14.10.21:169][810]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2018.05.29-14.12.10:266][553]Cmd: TRANSACTION UNDO
-[2018.05.29-14.12.10:267][553]LogEditorTransaction: Undo Move Actors
-[2018.05.29-14.12.10:271][553]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush8.BrushComponent0) Component already registered.
-[2018.05.29-14.12.10:275][553]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush19.BrushComponent0) Component already registered.
-[2018.05.29-14.12.10:281][553]LogGeometryMode: Warning: Unable to find 1 Poly(s) in new BSP
-[2018.05.29-14.12.10:281][553]LogGeometryMode: Warning: Unable to resolve BoxBrush22 Brush in new BSP, see above
-[2018.05.29-14.12.10:281][553]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2018.05.29-14.12.11:017][634]LogGeometryMode: Warning: Unable to find BoxBrush15 Brush(s) in new BSP
-[2018.05.29-14.12.11:017][634]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2018.05.29-14.12.51:477][386]LogGeometryMode: Warning: Unable to find BoxBrush13 Brush(s) in new BSP
-[2018.05.29-14.12.51:477][386]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2018.05.29-14.12.59:023][268]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush23)
-[2018.05.29-14.13.40:740][197]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.05.29-14.15.30:747][982]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.05.29-14.16.21:850][918]LogGeometryMode: Warning: Unable to find BoxBrush26 Brush(s) in new BSP
-[2018.05.29-14.16.21:850][918]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2018.05.29-14.16.26:652][477]LogGeometryMode: Warning: Unable to find BoxBrush15 Brush(s) in new BSP
-[2018.05.29-14.16.26:652][477]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2018.05.29-14.16.58:742][996]LogEditorViewport: Clicking on Actor (context menu): Brush (Box Brush26)
-[2018.05.29-14.17.03:485][524]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.05.29-14.17.15:321][916]Cmd: TRANSACTION UNDO
-[2018.05.29-14.17.15:321][916]LogEditorTransaction: Undo Clicking on Actors
-[2018.05.29-14.17.41:361][911]LogGeometryMode: Warning: Unable to find BoxBrush3_16 Brush(s) in new BSP
-[2018.05.29-14.17.41:361][911]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2018.05.29-14.18.01:492][272]LogGeometryMode: Warning: Unable to find BoxBrush22 Brush(s) in new BSP
-[2018.05.29-14.18.01:492][272]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2018.05.29-14.18.31:376][760]LogSavePackage: Save=320.54ms
-[2018.05.29-14.18.31:376][760]LogSavePackage: Moving '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/ThirdPersonExampleMapB4A923624386C27C0AE30D9C7C630E8C.tmp' to '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2018.05.29-14.18.31:392][760]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
-[2018.05.29-14.18.31:713][760]LogSavePackage: Save=138.95ms
-[2018.05.29-14.18.31:713][760]LogSavePackage: Moving '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/ThirdPersonExampleMap_BuiltData14289EE04CE0D0238CEF0290E7160BE7.tmp' to '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
-[2018.05.29-14.18.31:715][760]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
-[2018.05.29-14.19.20:920][646]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder8)
-[2018.05.29-14.19.29:895][702]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder8)
-[2018.05.29-14.20.28:178][975]LogActorFactory: Actor Factory created Cube
-[2018.05.29-14.20.28:715][ 38]LogActorFactory: Actor Factory created Cube
-[2018.05.29-14.20.48:068][329]Cmd: TRANSACTION UNDO
-[2018.05.29-14.20.48:068][329]LogEditorTransaction: Undo Move Actors
-[2018.05.29-14.21.11:152][ 42]Cmd: DELETE
-[2018.05.29-14.21.11:152][ 42]Cmd: ACTOR DELETE
-[2018.05.29-14.21.11:159][ 42]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.05.29-14.21.11:190][ 42]LogEditorActor: Deleted 1 Actors (0.037 secs)
-[2018.05.29-14.21.13:892][363]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2018.05.29-14.21.37:341][ 84]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush28)
-[2018.05.29-14.21.37:895][147]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush28)
-[2018.05.29-14.22.21:097][945]LogGeometryMode: Warning: Unable to find BoxBrush4 Brush(s) in new BSP
-[2018.05.29-14.22.21:097][945]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2018.05.29-14.22.23:354][200]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.05.29-14.22.37:067][731]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.05.29-14.22.50:208][207]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.05.29-14.22.58:611][187]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush28)
-[2018.05.29-14.23.01:281][486]LogGeometryMode: Warning: Unable to find BoxBrush4 Brush(s) in new BSP
-[2018.05.29-14.23.01:282][486]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2018.05.29-14.23.05:578][986]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush4)
-[2018.05.29-14.23.08:714][342]LogGeometryMode: Warning: Unable to find BoxBrush28 Brush(s) in new BSP
-[2018.05.29-14.23.08:714][342]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2018.05.29-14.23.25:998][307]LogGeometryMode: Warning: Unable to find BoxBrush4 Brush(s) in new BSP
-[2018.05.29-14.23.25:998][307]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2018.05.29-14.23.29:726][733]LogTemp: Repeating last play command: Selected Viewport
-[2018.05.29-14.23.29:805][733]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.05.29-14.23.29:805][733]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.05.29-14.23.29:807][733]PIE: New page: PIE session: ThirdPersonExampleMap (May 29, 2018, 6:23:29 PM)
-[2018.05.29-14.23.29:807][733]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2018.05.29-14.23.29:829][733]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022043s)
-[2018.05.29-14.23.29:830][733]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.05.29-14.23.29:831][733]LogPlayLevel: PIE: World Init took: (0.001834s)
-[2018.05.29-14.23.29:831][733]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.024395s)
-[2018.05.29-14.23.29:847][733]LogInit: XAudio2 using 'Audio numérique (SPDIF) (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.05.29-14.23.29:854][733]LogInit: FAudioDevice initialized.
-[2018.05.29-14.23.29:933][733]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.05.29-14.23.29:941][733]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.05.29-16.23.29
-[2018.05.29-14.23.29:942][733]LogWorld: Bringing up level for play took: 0.005655
-[2018.05.29-14.23.29:992][733]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
-[2018.05.29-14.23.29:993][733]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.542
-[2018.05.29-14.23.30:000][733]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.05.29-14.23.44:639][475]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.05.29-14.23.44:674][475]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.05.29-14.24.06:103][918]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.05.29-14.24.09:694][307]LogSavePackage: Save=223.37ms
-[2018.05.29-14.24.09:694][307]LogSavePackage: Moving '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/ThirdPersonExampleMap67A169BA4443B8783A41E2A09109C5DE.tmp' to '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2018.05.29-14.24.09:698][307]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
-[2018.05.29-14.24.09:840][307]LogSavePackage: Save=104.51ms
-[2018.05.29-14.24.09:840][307]LogSavePackage: Moving '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/ThirdPersonExampleMap_BuiltData2EAA720544A216D3F6C1F4B4070A209A.tmp' to '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
-[2018.05.29-14.24.09:841][307]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
-[2018.05.29-14.24.11:690][448]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2018.05.29-14.24.42:792][ 68]MapCheck: New page: Map Check
-[2018.05.29-14.24.42:814][ 68]Cmd: MAP REBUILD ALLVISIBLE
-[2018.05.29-14.24.42:815][ 68]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2018.05.29-14.24.43:087][ 68]LightingResults: New page: Lighting Build - May 29, 2018, 6:24:43 PM
-[2018.05.29-14.24.43:320][ 68]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2018.05.29-14.24.43:392][ 68]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2018.05.29-14.24.43:411][ 68]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2018.05.29-14.24.45:732][ 68]LogSwarmInterface: Error: [TryOpenConnection] Waiting for the agent to start up ...
-[2018.05.29-14.24.45:795][ 68]LogSwarmInterface: Error: System.Net.Sockets.SocketException (0x80004005): Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée 127.0.0.1:8008
-
-Server stack trace: 
-   à System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
-   à System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
-   à System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
-   à System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
-   à System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
-   à System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
-   à System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
-
-Exception rethrown at [0]: 
-   à System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
-   à System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
-   à NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
-   à NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags)
-[2018.05.29-14.24.51:411][ 68]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2018.05.29-14.24.51:411][ 68]LogSwarmInterface: [TryOpenConnection] Local Process ID is 2544
-[2018.05.29-14.24.55:444][ 68]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2018.05.29-14.24.55:444][ 68]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2018.05.29-14.24.55:444][ 68]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2018.05.29-14.24.55:444][ 68]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2018.05.29-14.24.55:444][ 68]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2018.05.29-14.24.55:979][ 68]LogEditorBuildUtils: Build time 0:13
-[2018.05.29-14.25.02:933][547]Job is a success!
-[2018.05.29-14.25.03:067][548]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.032s
-[2018.05.29-14.25.03:067][548]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
-[2018.05.29-14.25.03:067][548]LogVolumetricLightmapImport:      BrickData 715x5x5 = 0.6Mb
-[2018.05.29-14.25.03:067][548]LogVolumetricLightmapImport:      Bricks at Level
-[2018.05.29-14.25.03:067][548]LogVolumetricLightmapImport:          0: 0.7% covering 100.0% of volume
-[2018.05.29-14.25.03:067][548]LogVolumetricLightmapImport:          1: 6.3% covering 14.1% of volume
-[2018.05.29-14.25.03:067][548]LogVolumetricLightmapImport:          2: 93.0% covering 3.2% of volume
-[2018.05.29-14.25.03:221][548]LightingResults: Error: PointLight5 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
-[2018.05.29-14.25.03:221][548]LightingResults: Error: PointLight_1 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
-[2018.05.29-14.25.03:221][548]LightingResults: Error: PointLight10 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
-[2018.05.29-14.25.03:221][548]LightingResults: Error: PointLight7_3 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
-[2018.05.29-14.25.03:624][548]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
-[2018.05.29-14.25.03:624][548]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
-[2018.05.29-14.25.03:624][548]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
-[2018.05.29-14.25.03:624][548]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 1024X512)
-[2018.05.29-14.25.03:624][548]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
-[2018.05.29-14.25.03:624][548]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
-[2018.05.29-14.25.03:624][548]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 64X32)
-[2018.05.29-14.25.03:624][548]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
-[2018.05.29-14.25.03:624][548]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
-[2018.05.29-14.25.03:744][548]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 32X32)
-[2018.05.29-14.25.03:744][548]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 512X512)
-[2018.05.29-14.25.03:744][548]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 1024X512)
-[2018.05.29-14.25.04:038][548]Lightmass on K104-0060: 5.82 sec total, 215 ms importing, 20 ms setup, 1.13 sec photons, 4.12 sec processing, 0 ms extra exporting [239/239 mappings]. Threads: 28.7 sec total, 6.82 sec processing.
-[2018.05.29-14.25.04:143][548]LogStaticLightingSystem: Illumination: 20.9 sec (402 ms encoding lightmaps, 116 ms encoding shadowmaps)
-[2018.05.29-14.25.04:143][548]LogStaticLightingSystem: Lightmap texture memory:  5.3 MB (2.7 MB streaming, 2.7 MB non-streaming), 6 textures
-[2018.05.29-14.25.04:143][548]LogStaticLightingSystem: Shadowmap texture memory: 4.0 MB (2.7 MB streaming, 1.3 MB non-streaming), 3 textures
-[2018.05.29-14.25.04:425][548]DumpUnbuiltLightIteractions
-[2018.05.29-14.25.04:425][548]Lights with unbuilt interactions: 0
-[2018.05.29-14.25.04:425][548]
-[2018.05.29-14.25.04:425][548]Primitives with unbuilt interactions: 0
-[2018.05.29-14.25.04:438][549]Cmd: MAP CHECK NOTIFYRESULTS
-[2018.05.29-14.25.04:438][549]MapCheck: New page: ThirdPersonExampleMap - May 29, 2018, 6:25:04 PM
-[2018.05.29-14.25.04:541][549]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 103.065ms to complete.
-[2018.05.29-14.25.33:686][990]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder8)
-[2018.05.29-14.26.18:230][240]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight11)
-[2018.05.29-14.26.43:717][268]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight9)
-[2018.05.29-14.32.05:765][603]LogSavePackage: Save=243.04ms
-[2018.05.29-14.32.05:765][603]LogSavePackage: Moving '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/ThirdPersonExampleMapDF6DA9CC4629B4B82E7071AE46AD9A6B.tmp' to '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2018.05.29-14.32.05:768][603]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
-[2018.05.29-14.32.05:976][603]LogSavePackage: Save=140.26ms
-[2018.05.29-14.32.05:976][603]LogSavePackage: Moving '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/ThirdPersonExampleMap_BuiltDataEE387491456160BB3CF7C088EE6E1833.tmp' to '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
-[2018.05.29-14.32.05:979][603]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
-[2018.05.29-15.25.50:975][128]LogSavePackage: Save=266.83ms
-[2018.05.29-15.25.50:975][128]LogSavePackage: Moving '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/ThirdPersonExampleMap06FBF96941B215ED5F5F33897256EEF3.tmp' to '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2018.05.29-15.25.50:979][128]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
-[2018.05.29-15.25.51:136][128]LogSavePackage: Save=115.08ms
-[2018.05.29-15.25.51:137][128]LogSavePackage: Moving '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/ThirdPersonExampleMap_BuiltDataFFB7F5B042C5B2BD5367008FEABE2370.tmp' to '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
-[2018.05.29-15.25.51:138][128]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
-[2018.05.29-15.26.50:258][110]LogRenderer: Reallocating scene render targets to support 1096x560 Format 10 NumSamples 1 (Frame:735237).
-[2018.05.29-15.26.50:323][111]LogRenderer: Reallocating scene render targets to support 1096x664 Format 10 NumSamples 1 (Frame:735239).
-[2018.05.29-15.26.50:373][112]LogRenderer: Reallocating scene render targets to support 1096x720 Format 10 NumSamples 1 (Frame:735241).
-[2018.05.29-15.26.50:440][113]LogRenderer: Reallocating scene render targets to support 1096x736 Format 10 NumSamples 1 (Frame:735243).
-[2018.05.29-15.26.50:488][114]LogRenderer: Reallocating scene render targets to support 1096x740 Format 10 NumSamples 1 (Frame:735245).
-[2018.05.29-15.26.52:380][324]LogRenderer: Reallocating scene render targets to support 1112x740 Format 10 NumSamples 1 (Frame:735460).
-[2018.05.29-15.26.52:423][325]LogRenderer: Reallocating scene render targets to support 1204x740 Format 10 NumSamples 1 (Frame:735462).
-[2018.05.29-15.26.52:473][326]LogRenderer: Reallocating scene render targets to support 1224x740 Format 10 NumSamples 1 (Frame:735464).
-[2018.05.29-15.26.52:525][327]LogRenderer: Reallocating scene render targets to support 1232x740 Format 10 NumSamples 1 (Frame:735466).
-[2018.05.29-15.26.52:608][329]LogRenderer: Reallocating scene render targets to support 1236x740 Format 10 NumSamples 1 (Frame:735470).
-[2018.05.29-15.26.52:651][330]LogRenderer: Reallocating scene render targets to support 1240x740 Format 10 NumSamples 1 (Frame:735472).
-[2018.05.29-15.26.52:693][331]LogRenderer: Reallocating scene render targets to support 1244x740 Format 10 NumSamples 1 (Frame:735474).
-[2018.05.29-15.26.52:736][332]LogRenderer: Reallocating scene render targets to support 1248x740 Format 10 NumSamples 1 (Frame:735476).
-[2018.05.29-15.26.58:797][ 57]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight9)
-[2018.05.29-15.27.00:071][203]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight10)
-[2018.05.29-15.28.10:699][560]Cmd: QUIT_EDITOR
-[2018.05.29-15.28.10:967][560]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.05.29-15.28.11:011][560]LogExit: Preparing to exit.
-[2018.05.29-15.28.11:917][560]LogDirectoryWatcher: A directory notification for 'C:/Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/' was aborted.
-[2018.05.29-15.28.11:972][560]LogExit: Editor shut down
-[2018.05.29-15.28.11:994][560]LogExit: Transaction tracking system shut down
-[2018.05.29-15.28.12:283][560]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.05.29-15.28.12:283][560]LogDirectoryWatcher: A directory notification for '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/' was aborted.
-[2018.05.29-15.28.12:283][560]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2018.05.29-15.28.12:283][560]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
-[2018.05.29-15.28.12:284][560]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2018.05.29-15.28.12:284][560]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2018.05.29-15.28.12:284][560]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2018.05.29-15.28.12:472][560]LogExit: Object subsystem successfully closed.
-[2018.05.29-15.28.12:503][560]LogD3D11RHI: Shutdown
-[2018.05.29-15.28.12:503][560]LogD3D11RHI: CleanupD3DDevice
-[2018.05.29-15.28.12:515][560]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.05.29-15.28.12:546][560]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (552)
-[2018.05.29-15.28.12:546][560]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (550)
-[2018.05.29-15.28.12:546][560]LogModuleManager: Shutting down and abandoning module WorldBrowser (548)
-[2018.05.29-15.28.12:546][560]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
-[2018.05.29-15.28.12:546][560]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
-[2018.05.29-15.28.12:546][560]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
-[2018.05.29-15.28.12:554][560]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
-[2018.05.29-15.28.12:554][560]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
-[2018.05.29-15.28.12:554][560]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
-[2018.05.29-15.28.12:554][560]LogDirectoryWatcher: A directory notification for 'C:/Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/Collections/' was aborted.
-[2018.05.29-15.28.12:554][560]LogDirectoryWatcher: A directory notification for 'C:/Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/Developers/qroze/Collections/' was aborted.
-[2018.05.29-15.28.12:554][560]LogDirectoryWatcher: A directory notification for 'C:/Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/Collections/' was aborted.
-[2018.05.29-15.28.12:555][560]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
-[2018.05.29-15.28.12:555][560]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
-[2018.05.29-15.28.12:555][560]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
-[2018.05.29-15.28.12:555][560]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
-[2018.05.29-15.28.12:555][560]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
-[2018.05.29-15.28.12:555][560]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
-[2018.05.29-15.28.12:555][560]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
-[2018.05.29-15.28.12:555][560]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
-[2018.05.29-15.28.12:555][560]LogModuleManager: Shutting down and abandoning module BspMode (520)
-[2018.05.29-15.28.12:555][560]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
-[2018.05.29-15.28.12:555][560]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
-[2018.05.29-15.28.12:555][560]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
-[2018.05.29-15.28.12:555][560]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
-[2018.05.29-15.28.12:555][560]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
-[2018.05.29-15.28.12:555][560]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
-[2018.05.29-15.28.12:555][560]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
-[2018.05.29-15.28.12:555][560]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
-[2018.05.29-15.28.12:555][560]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
-[2018.05.29-15.28.12:555][560]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
-[2018.05.29-15.28.12:555][560]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
-[2018.05.29-15.28.12:555][560]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
-[2018.05.29-15.28.12:555][560]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
-[2018.05.29-15.28.12:555][560]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
-[2018.05.29-15.28.12:555][560]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
-[2018.05.29-15.28.12:555][560]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
-[2018.05.29-15.28.12:555][560]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
-[2018.05.29-15.28.12:556][560]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
-[2018.05.29-15.28.12:556][560]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
-[2018.05.29-15.28.12:556][560]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
-[2018.05.29-15.28.12:556][560]LogModuleManager: Shutting down and abandoning module SessionServices (478)
-[2018.05.29-15.28.12:556][560]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
-[2018.05.29-15.28.12:556][560]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
-[2018.05.29-15.28.12:556][560]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
-[2018.05.29-15.28.12:556][560]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
-[2018.05.29-15.28.12:556][560]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
-[2018.05.29-15.28.12:556][560]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
-[2018.05.29-15.28.12:556][560]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
-[2018.05.29-15.28.12:556][560]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
-[2018.05.29-15.28.12:556][560]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
-[2018.05.29-15.28.12:556][560]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
-[2018.05.29-15.28.12:556][560]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
-[2018.05.29-15.28.12:637][560]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
-[2018.05.29-15.28.12:637][560]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
-[2018.05.29-15.28.12:637][560]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
-[2018.05.29-15.28.12:637][560]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
-[2018.05.29-15.28.12:638][560]LogModuleManager: Shutting down and abandoning module MergeActors (446)
-[2018.05.29-15.28.12:638][560]LogModuleManager: Shutting down and abandoning module SizeMap (444)
-[2018.05.29-15.28.12:638][560]LogModuleManager: Shutting down and abandoning module TreeMap (442)
-[2018.05.29-15.28.12:638][560]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
-[2018.05.29-15.28.12:638][560]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
-[2018.05.29-15.28.12:638][560]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
-[2018.05.29-15.28.12:638][560]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
-[2018.05.29-15.28.12:638][560]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
-[2018.05.29-15.28.12:638][560]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
-[2018.05.29-15.28.12:639][560]LogModuleManager: Shutting down and abandoning module XmlParser (428)
-[2018.05.29-15.28.12:639][560]LogModuleManager: Shutting down and abandoning module Blutility (426)
-[2018.05.29-15.28.12:639][560]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
-[2018.05.29-15.28.12:639][560]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
-[2018.05.29-15.28.12:640][560]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
-[2018.05.29-15.28.12:640][560]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
-[2018.05.29-15.28.12:640][560]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
-[2018.05.29-15.28.12:640][560]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
-[2018.05.29-15.28.12:640][560]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
-[2018.05.29-15.28.12:640][560]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
-[2018.05.29-15.28.12:641][560]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
-[2018.05.29-15.28.12:696][560]LogModuleManager: Shutting down and abandoning module AutomationController (406)
-[2018.05.29-15.28.12:696][560]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
-[2018.05.29-15.28.12:696][560]LogModuleManager: Shutting down and abandoning module Layers (402)
-[2018.05.29-15.28.12:696][560]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
-[2018.05.29-15.28.12:696][560]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
-[2018.05.29-15.28.12:696][560]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
-[2018.05.29-15.28.12:697][560]LogModuleManager: Shutting down and abandoning module Persona (394)
-[2018.05.29-15.28.12:697][560]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
-[2018.05.29-15.28.12:697][560]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
-[2018.05.29-15.28.12:697][560]LogModuleManager: Shutting down and abandoning module Kismet (388)
-[2018.05.29-15.28.12:699][560]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
-[2018.05.29-15.28.12:699][560]LogModuleManager: Shutting down and abandoning module Toolbox (384)
-[2018.05.29-15.28.12:699][560]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
-[2018.05.29-15.28.12:699][560]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
-[2018.05.29-15.28.12:699][560]LogModuleManager: Shutting down and abandoning module OutputLog (378)
-[2018.05.29-15.28.12:699][560]LogModuleManager: Shutting down and abandoning module GammaUI (376)
-[2018.05.29-15.28.12:699][560]LogModuleManager: Shutting down and abandoning module Documentation (374)
-[2018.05.29-15.28.12:699][560]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
-[2018.05.29-15.28.12:699][560]LogModuleManager: Shutting down and abandoning module MovieScene (370)
-[2018.05.29-15.28.12:699][560]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
-[2018.05.29-15.28.12:699][560]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
-[2018.05.29-15.28.12:699][560]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
-[2018.05.29-15.28.12:700][560]LogModuleManager: Shutting down and abandoning module PortalServices (362)
-[2018.05.29-15.28.12:700][560]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
-[2018.05.29-15.28.12:700][560]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
-[2018.05.29-15.28.12:700][560]LogModuleManager: Shutting down and abandoning module AIModule (356)
-[2018.05.29-15.28.12:700][560]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
-[2018.05.29-15.28.12:700][560]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
-[2018.05.29-15.28.12:700][560]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
-[2018.05.29-15.28.12:700][560]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
-[2018.05.29-15.28.12:739][560]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
-[2018.05.29-15.28.12:739][560]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
-[2018.05.29-15.28.12:739][560]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
-[2018.05.29-15.28.12:739][560]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
-[2018.05.29-15.28.12:739][560]LogModuleManager: Shutting down and abandoning module OculusInput (338)
-[2018.05.29-15.28.12:739][560]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
-[2018.05.29-15.28.12:739][560]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
-[2018.05.29-15.28.12:739][560]LogModuleManager: Shutting down and abandoning module CableComponent (332)
-[2018.05.29-15.28.12:739][560]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
-[2018.05.29-15.28.12:740][560]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
-[2018.05.29-15.28.12:740][560]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
-[2018.05.29-15.28.12:740][560]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
-[2018.05.29-15.28.12:740][560]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
-[2018.05.29-15.28.12:740][560]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
-[2018.05.29-15.28.12:740][560]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
-[2018.05.29-15.28.12:740][560]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
-[2018.05.29-15.28.12:740][560]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
-[2018.05.29-15.28.12:740][560]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
-[2018.05.29-15.28.12:740][560]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
-[2018.05.29-15.28.12:741][560]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
-[2018.05.29-15.28.12:741][560]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
-[2018.05.29-15.28.12:741][560]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
-[2018.05.29-15.28.12:741][560]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
-[2018.05.29-15.28.12:741][560]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
-[2018.05.29-15.28.12:741][560]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
-[2018.05.29-15.28.12:741][560]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
-[2018.05.29-15.28.12:741][560]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
-[2018.05.29-15.28.12:742][560]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
-[2018.05.29-15.28.12:742][560]LogModuleManager: Shutting down and abandoning module SourceControl (289)
-[2018.05.29-15.28.12:742][560]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
-[2018.05.29-15.28.12:742][560]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
-[2018.05.29-15.28.12:742][560]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
-[2018.05.29-15.28.12:742][560]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
-[2018.05.29-15.28.12:742][560]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
-[2018.05.29-15.28.12:742][560]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
-[2018.05.29-15.28.12:747][560]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
-[2018.05.29-15.28.12:747][560]LogModuleManager: Shutting down and abandoning module MainFrame (274)
-[2018.05.29-15.28.12:747][560]LogModuleManager: Shutting down and abandoning module HotReload (273)
-[2018.05.29-15.28.12:748][560]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
-[2018.05.29-15.28.12:748][560]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
-[2018.05.29-15.28.12:748][560]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
-[2018.05.29-15.28.12:748][560]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
-[2018.05.29-15.28.12:749][560]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
-[2018.05.29-15.28.12:749][560]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
-[2018.05.29-15.28.12:749][560]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
-[2018.05.29-15.28.12:749][560]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
-[2018.05.29-15.28.12:850][560]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
-[2018.05.29-15.28.12:951][560]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
-[2018.05.29-15.28.12:951][560]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
-[2018.05.29-15.28.12:951][560]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
-[2018.05.29-15.28.12:951][560]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
-[2018.05.29-15.28.12:952][560]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
-[2018.05.29-15.28.12:952][560]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
-[2018.05.29-15.28.12:958][560]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
-[2018.05.29-15.28.12:958][560]LogModuleManager: Shutting down and abandoning module Paper2D (236)
-[2018.05.29-15.28.12:958][560]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
-[2018.05.29-15.28.12:958][560]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
-[2018.05.29-15.28.12:964][560]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
-[2018.05.29-15.28.12:964][560]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
-[2018.05.29-15.28.12:964][560]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
-[2018.05.29-15.28.12:965][560]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
-[2018.05.29-15.28.12:965][560]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
-[2018.05.29-15.28.12:965][560]LogModuleManager: Shutting down and abandoning module Media (221)
-[2018.05.29-15.28.12:972][560]LogModuleManager: Shutting down and abandoning module Overlay (218)
-[2018.05.29-15.28.12:972][560]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
-[2018.05.29-15.28.12:972][560]LogModuleManager: Shutting down and abandoning module VREditor (214)
-[2018.05.29-15.28.12:972][560]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
-[2018.05.29-15.28.12:973][560]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
-[2018.05.29-15.28.12:973][560]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
-[2018.05.29-15.28.12:973][560]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
-[2018.05.29-15.28.12:973][560]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
-[2018.05.29-15.28.12:973][560]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
-[2018.05.29-15.28.12:973][560]LogModuleManager: Shutting down and abandoning module UMG (200)
-[2018.05.29-15.28.12:973][560]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
-[2018.05.29-15.28.12:973][560]LogModuleManager: Shutting down and abandoning module Sequencer (198)
-[2018.05.29-15.28.12:975][560]LogModuleManager: Shutting down and abandoning module MessageLog (195)
-[2018.05.29-15.28.12:975][560]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
-[2018.05.29-15.28.12:975][560]LogModuleManager: Shutting down and abandoning module Slate (188)
-[2018.05.29-15.28.12:975][560]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
-[2018.05.29-15.28.12:985][560]LogModuleManager: Shutting down and abandoning module MRMesh (184)
-[2018.05.29-15.28.12:986][560]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
-[2018.05.29-15.28.12:986][560]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
-[2018.05.29-15.28.12:986][560]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
-[2018.05.29-15.28.12:986][560]LogModuleManager: Shutting down and abandoning module Networking (176)
-[2018.05.29-15.28.12:986][560]LogModuleManager: Shutting down and abandoning module Core (172)
-[2018.05.29-15.28.12:986][560]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
-[2018.05.29-15.28.12:986][560]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
-[2018.05.29-15.28.13:015][560]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2018.05.29-15.28.13:015][560]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
-[2018.05.29-15.28.13:015][560]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
-[2018.05.29-15.28.13:015][560]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
-[2018.05.29-15.28.13:016][560]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
-[2018.05.29-15.28.13:016][560]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
-[2018.05.29-15.28.13:016][560]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
-[2018.05.29-15.28.13:016][560]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
-[2018.05.29-15.28.13:016][560]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
-[2018.05.29-15.28.13:052][560]LogDerivedDataCache: Shutdown
-[2018.05.29-15.28.13:052][560]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
-[2018.05.29-15.28.13:052][560]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
-[2018.05.29-15.28.13:052][560]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
-[2018.05.29-15.28.13:052][560]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
-[2018.05.29-15.28.13:052][560]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
-[2018.05.29-15.28.13:052][560]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
-[2018.05.29-15.28.13:053][560]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
-[2018.05.29-15.28.13:053][560]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
-[2018.05.29-15.28.13:053][560]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
-[2018.05.29-15.28.13:053][560]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
-[2018.05.29-15.28.13:053][560]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
-[2018.05.29-15.28.13:053][560]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
-[2018.05.29-15.28.13:053][560]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
-[2018.05.29-15.28.13:053][560]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
-[2018.05.29-15.28.13:053][560]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
-[2018.05.29-15.28.13:053][560]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
-[2018.05.29-15.28.13:053][560]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
-[2018.05.29-15.28.13:053][560]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
-[2018.05.29-15.28.13:053][560]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
-[2018.05.29-15.28.13:053][560]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
-[2018.05.29-15.28.13:053][560]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
-[2018.05.29-15.28.13:053][560]LogModuleManager: Shutting down and abandoning module Messaging (105)
-[2018.05.29-15.28.13:053][560]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
-[2018.05.29-15.28.13:053][560]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
-[2018.05.29-15.28.13:053][560]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
-[2018.05.29-15.28.13:053][560]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
-[2018.05.29-15.28.13:053][560]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
-[2018.05.29-15.28.13:053][560]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
-[2018.05.29-15.28.13:053][560]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
-[2018.05.29-15.28.13:053][560]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
-[2018.05.29-15.28.13:053][560]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
-[2018.05.29-15.28.13:053][560]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
-[2018.05.29-15.28.13:053][560]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
-[2018.05.29-15.28.13:053][560]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
-[2018.05.29-15.28.13:053][560]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
-[2018.05.29-15.28.13:053][560]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
-[2018.05.29-15.28.13:053][560]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
-[2018.05.29-15.28.13:053][560]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
-[2018.05.29-15.28.13:053][560]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
-[2018.05.29-15.28.13:053][560]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
-[2018.05.29-15.28.13:053][560]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
-[2018.05.29-15.28.13:053][560]LogModuleManager: Shutting down and abandoning module InputCore (64)
-[2018.05.29-15.28.13:053][560]LogModuleManager: Shutting down and abandoning module Settings (62)
-[2018.05.29-15.28.13:053][560]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
-[2018.05.29-15.28.13:054][560]LogModuleManager: Shutting down and abandoning module SteamVR (58)
-[2018.05.29-15.28.13:054][560]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
-[2018.05.29-15.28.13:054][560]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
-[2018.05.29-15.28.13:054][560]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
-[2018.05.29-15.28.13:054][560]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2018.05.29-15.28.13:054][560]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.05.29-15.28.13:054][560]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.05.29-15.28.13:054][560]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.05.29-15.28.13:054][560]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.05.29-15.28.13:054][560]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.05.29-15.28.13:054][560]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B18B6DC80-48D9-6E12-1E9F-79A1FBC57FB1%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=c31245914b28d840664cedadd45726a3%7C51c1858b792f49369db87628fda8b6dc%7C827acf9c-9f39-4f0e-bcce-307d535d0ab0&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.05.29-15.28.13:067][560]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.05.29-15.28.13:069][560]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.05.29-15.28.13:069][560]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.05.29-15.28.13:069][560]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.05.29-15.28.13:069][560]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.05.29-15.28.13:069][560]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.05.29-15.28.13:069][560]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.05.29-15.28.13:069][560]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.05.29-15.28.13:071][560]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.05.29-15.28.13:071][560]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.05.29-15.28.13:071][560]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.05.29-15.28.13:071][560]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.05.29-15.28.13:071][560]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.05.29-15.28.13:071][560]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.05.29-15.28.13:071][560]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.05.29-15.28.13:072][560]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.05.29-15.28.13:072][560]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.05.29-15.28.13:072][560]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.05.29-15.28.13:072][560]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.05.29-15.28.13:086][560]LogExit: Exiting.
-[2018.05.29-15.28.13:089][560]Log file closed, 05/29/18 17:28:13
+[2018.05.30-08.28.53:533][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.30-08.28.53:533][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.30-08.28.53:561][  0]LogInit: Computer: K104-0060
+[2018.05.30-08.28.53:561][  0]LogInit: User: qroze
+[2018.05.30-08.28.53:561][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.05.30-08.28.53:561][  0]LogInit: High frequency timer resolution =3.903994 MHz
+[2018.05.30-08.28.53:561][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.05.30-08.28.53:561][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.30-08.28.53:561][  0]LogMemory: Process Physical Memory: 275.95 MB used, 275.95 MB peak
+[2018.05.30-08.28.53:561][  0]LogMemory: Process Virtual Memory: 269.97 MB used, 269.97 MB peak
+[2018.05.30-08.28.53:561][  0]LogMemory: Physical Memory: 5166.20 MB used,  11160.73 MB free, 16326.93 MB total
+[2018.05.30-08.28.53:561][  0]LogMemory: Virtual Memory: 682.88 MB used,  11160.73 MB free, 134217728.00 MB total
+[2018.05.30-08.28.53:694][  0]LogInit: Using OS detected language (fr-FR).
+[2018.05.30-08.28.53:694][  0]LogInit: Using OS detected locale (fr-FR).
+[2018.05.30-08.28.53:697][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the language.
+[2018.05.30-08.28.53:697][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the locale.
+[2018.05.30-08.28.54:048][  0]LogInit: Setting process to per monitor DPI aware
+[2018.05.30-08.28.54:278][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.30-08.28.54:306][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2018.05.30-08.28.54:306][  0]LogD3D11RHI:       2016/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.05.30-08.28.54:308][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.30-08.28.54:308][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.30-08.28.54:308][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.30-08.28.54:312][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.30-08.28.54:313][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2018.05.30-08.28.54:313][  0]LogWindows: EnumDisplayDevices:
+[2018.05.30-08.28.54:313][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2018.05.30-08.28.54:313][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:1)
+[2018.05.30-08.28.54:313][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.05.30-08.28.54:313][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.05.30-08.28.54:313][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.05.30-08.28.54:313][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2018.05.30-08.28.54:313][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.05.30-08.28.54:313][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.05.30-08.28.54:313][  0]LogRHI: Texture pool is 1411 MB (70% of 2016 MB)
+[2018.05.30-08.28.54:332][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.30-08.28.54:344][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.05.30-08.28.54:346][  0]LogShaderCompilers: Guid format shader working directory is -48 characters bigger than the processId version (../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Intermediate/Shaders/WorkingDirectory/11408/).
+[2018.05.30-08.28.54:346][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/q.roze/AppData/Local/Temp/UnrealShaderWorkingDir/CF6E67AB45B173336F033998FB761BCD/'.
+[2018.05.30-08.28.54:346][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.05.30-08.28.55:204][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.30-08.28.55:263][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.05.30-08.28.55:324][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.05.30-08.28.55:379][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.05.30-08.28.55:433][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.05.30-08.28.55:489][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.30-08.28.55:542][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.30-08.28.55:596][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.30-08.28.55:645][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.05.30-08.28.55:700][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.30-08.28.55:751][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.30-08.28.55:803][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.30-08.28.55:857][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.30-08.28.55:910][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.30-08.28.56:021][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.30-08.28.56:021][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.30-08.28.56:081][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.05.30-08.28.56:119][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.05.30-08.28.56:209][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.05.30-08.28.56:240][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.05.30-08.28.56:288][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.05.30-08.28.56:335][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.30-08.28.56:380][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.30-08.28.56:433][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.05.30-08.28.56:433][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.05.30-08.28.56:924][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.05.30-08.28.56:990][  0]LogDerivedDataCache: Loaded boot cache 0.07s 78MB C:/Users/q.roze/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.05.30-08.28.56:990][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/q.roze/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.05.30-08.28.56:990][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.30-08.28.56:991][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.30-08.28.56:991][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.30-08.28.56:991][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.30-08.28.57:005][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.30-08.28.57:017][  0]LogDerivedDataCache: Using Local data cache path C:/Users/q.roze/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.30-08.28.57:028][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.05.30-08.28.57:028][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.30-08.28.57:028][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.30-08.28.57:028][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.30-08.28.57:370][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.30-08.28.57:727][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.30-08.28.57:782][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.30-08.28.57:782][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.30-08.28.57:782][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.05.30-08.28.57:782][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.05.30-08.28.57:782][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.05.30-08.28.57:815][  0]LogNetVersion: ACProject , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 598294695)
+[2018.05.30-08.28.57:971][  0]LogAssetRegistry: FAssetRegistry took 0.0251 seconds to start up
+[2018.05.30-08.28.58:418][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.035946 seconds
+[2018.05.30-08.28.58:423][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.05.30-08.28.58:423][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.05.30-08.28.58:423][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.30-08.28.58:482][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.05.30-08.29.01:046][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.05.30-08.29.01:085][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.30-08.29.01:731][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.05.30-08.29.02:104][  0]SourceControl: Source control is disabled
+[2018.05.30-08.29.02:104][  0]SourceControl: Source control is disabled
+[2018.05.30-08.29.02:150][  0]SourceControl: Source control is disabled
+[2018.05.30-08.29.02:195][  0]SourceControl: Source control is disabled
+[2018.05.30-08.29.03:017][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.05.30-08.29.03:253][  0]LogOcInput: OculusInput pre-init called
+[2018.05.30-08.29.03:554][  0]LogEngine: Initializing Engine...
+[2018.05.30-08.29.03:557][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.05.30-08.29.03:737][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.30-08.29.03:753][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.30-08.29.03:955][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.30-08.29.03:964][  0]LogInit: XAudio2 using 'Casque (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.30-08.29.03:974][  0]LogInit: FAudioDevice initialized.
+[2018.05.30-08.29.04:162][  0]LogDerivedDataCache: Saved boot cache 0.19s 78MB C:/Users/q.roze/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.05.30-08.29.04:193][  0]LogInit: Texture streaming: Enabled
+[2018.05.30-08.29.04:313][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.05.30-08.29.04:445][  0]LogInit: Transaction tracking system initialized
+[2018.05.30-08.29.04:729][  0]BlueprintLog: New page: Editor Load
+[2018.05.30-08.29.05:537][  0]LocalizationService: Localization service is disabled
+[2018.05.30-08.29.06:239][  0]LogConsoleResponse: Display: 
+[2018.05.30-08.29.06:403][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.05.30-08.29.06:403][  0]LogCook: Display: Mobile HDR setting 1
+[2018.05.30-08.29.06:403][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.05.30-08.29.07:443][  0]LogFileCache: Scanning file cache for directory 'C:/Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/' took 0.02s
+[2018.05.30-08.29.07:488][  0]SourceControl: Source control is disabled
+[2018.05.30-08.29.07:488][  0]LightingResults: New page: Lighting Build
+[2018.05.30-08.29.07:530][  0]MapCheck: New page: Map Check
+[2018.05.30-08.29.07:530][  0]LightingResults: New page: Lighting Build
+[2018.05.30-08.29.10:158][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.05.30-08.29.10:176][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.30-08.29.10:189][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.30-08.29.10:236][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 46.995ms to complete.
+[2018.05.30-08.29.10:236][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 2.748
+[2018.05.30-08.29.10:793][  0]LogCollectionManager: Loaded 0 collections in 0.001692 seconds
+[2018.05.30-08.29.10:894][  0]LogFileCache: Scanning file cache for directory 'C:/Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/Collections/' took 0.01s
+[2018.05.30-08.29.10:895][  0]LogFileCache: Scanning file cache for directory 'C:/Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/Developers/qroze/Collections/' took 0.01s
+[2018.05.30-08.29.10:895][  0]LogFileCache: Scanning file cache for directory 'C:/Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/Collections/' took 0.01s
+[2018.05.30-08.29.10:895][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.05.30-08.29.10:902][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2363 classes and 519 folders.
+[2018.05.30-08.29.11:064][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.05.30-08.29.12:753][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.05.30-08.29.12:965][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.05.30-08.29.13:100][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2018.05.30-08.29.13:225][  0]LogSlate: Took 0.000259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.30-08.29.13:227][  0]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.30-08.29.13:253][  0]LogSlate: Took 0.020966 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.30-08.29.13:643][  0]LogRenderer: Reallocating scene render targets to support 1248x716 Format 10 NumSamples 1 (Frame:1).
+[2018.05.30-08.29.13:820][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.05.30-08.29.13:820][  0]LogLoad: (Engine Initialization) Total time: 23.13 seconds
+[2018.05.30-08.29.13:820][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.05.30-08.29.13:820][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.05.30-08.29.14:188][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.05.30-08.29.14:386][  0]LogSlate: Took 0.069393 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.30-08.29.14:509][  1]LogAssetRegistry: Asset discovery search completed in 16.5666 seconds
+[2018.05.30-08.29.14:511][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.05.30-08.29.14:511][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000100 seconds (updated 0 objects)
+[2018.05.30-08.39.49:780][173]LogActorFactory: Actor Factory created Cube
+[2018.05.30-08.39.50:996][313]LogActorFactory: Actor Factory created Cube
+[2018.05.30-08.41.12:790][840]LogSlate: Took 0.000199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.30-08.41.19:041][559]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.30-08.41.19:306][559]LogSavePackage: Save=195.98ms
+[2018.05.30-08.41.19:306][559]LogSavePackage: Moving '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/ThirdPersonExampleMap_Auto138B6933B40D283995FBE12A676969EFC.tmp' to '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2018.05.30-08.41.19:308][559]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2018.05.30-08.41.19:310][559]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.227
+[2018.05.30-08.41.19:310][559]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.227
+[2018.05.30-08.44.37:062][472]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.05.30-08.45.12:290][495]LogGeometryMode: Warning: Unable to find BoxBrush10 Brush(s) in new BSP
+[2018.05.30-08.45.12:291][495]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.05.30-08.45.14:196][709]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder10)
+[2018.05.30-08.45.15:195][821]Cmd: DELETE
+[2018.05.30-08.45.15:195][821]Cmd: ACTOR DELETE
+[2018.05.30-08.45.15:218][821]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.30-08.45.15:226][821]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2018.05.30-08.45.17:080][ 35]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder9)
+[2018.05.30-08.45.28:478][323]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder9)
+[2018.05.30-08.45.29:717][464]Cmd: DELETE
+[2018.05.30-08.45.29:717][464]Cmd: ACTOR DELETE
+[2018.05.30-08.45.29:722][464]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.30-08.45.29:730][464]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2018.05.30-08.45.29:994][494]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder8)
+[2018.05.30-08.45.30:099][500]Cmd: DELETE
+[2018.05.30-08.45.30:099][500]Cmd: ACTOR DELETE
+[2018.05.30-08.45.30:104][500]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.30-08.45.30:112][500]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2018.05.30-08.45.35:924][166]Cmd: DELETE
+[2018.05.30-08.45.35:946][166]Cmd: ACTOR DELETE
+[2018.05.30-08.45.35:952][166]LogEditorActor: Deleted Actor: Brush
+[2018.05.30-08.45.36:025][166]LogEditorActor: Deleted 1 Actors (0.078 secs)
+[2018.05.30-08.45.50:696][895]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.05.30-08.45.51:605][999]LogEditorViewport: Clicking on Actor (LMB): Brush (Cylinder Brush)
+[2018.05.30-08.46.10:897][300]LogEditorViewport: Clicking on Actor (LMB): Brush (Cylinder Brush2)
+[2018.05.30-08.46.19:765][340]LogEditorViewport: Clicking on Actor (LMB): Brush (Cylinder Brush)
+[2018.05.30-08.46.23:797][806]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.05.30-08.46.41:416][746]LogDialogs: Warning: Suppressed: Extrude only works with Local Coordinates System
+[2018.05.30-08.46.52:828][971]LogGeometryMode: Warning: Unable to find BoxBrush_11 Brush(s) in new BSP
+[2018.05.30-08.46.52:828][971]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.05.30-08.47.01:956][ 30]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.05.30-08.47.22:707][357]LogGeometryMode: Warning: Unable to find BoxBrush4 Brush(s) in new BSP
+[2018.05.30-08.47.22:707][357]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.05.30-08.47.32:937][548]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.05.30-08.47.54:342][930]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.05.30-08.47.59:321][459]Cmd: TRANSACTION UNDO
+[2018.05.30-08.47.59:321][459]LogEditorTransaction: Undo Select Brush Surface
+[2018.05.30-08.48.00:174][530]Cmd: TRANSACTION UNDO
+[2018.05.30-08.48.00:174][530]LogEditorTransaction: Undo Select Brush Surface
+[2018.05.30-08.48.00:587][571]Cmd: TRANSACTION UNDO
+[2018.05.30-08.48.00:587][571]LogEditorTransaction: Undo Scale Actors
+[2018.05.30-08.48.00:593][571]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush11.BrushComponent0) Component already registered.
+[2018.05.30-08.48.00:599][571]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush26.BrushComponent0) Component already registered.
+[2018.05.30-08.48.10:650][653]LogDialogs: Warning: Suppressed: Extrude only works with Local Coordinates System
+[2018.05.30-08.48.58:293][110]Cmd: DELETE
+[2018.05.30-08.48.58:293][110]Cmd: ACTOR DELETE
+[2018.05.30-08.48.58:300][110]LogEditorActor: Deleted Actor: Brush
+[2018.05.30-08.48.58:334][110]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2018.05.30-08.49.07:034][107]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.30-08.49.07:131][107]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.05.30-08.49.07:132][107]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.30-08.49.07:133][107]PIE: New page: PIE session: ThirdPersonExampleMap (May 30, 2018, 12:49:07 PM)
+[2018.05.30-08.49.07:133][107]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.05.30-08.49.07:166][107]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033227s)
+[2018.05.30-08.49.07:167][107]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.05.30-08.49.07:167][107]LogPlayLevel: PIE: World Init took: (0.000989s)
+[2018.05.30-08.49.07:168][107]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.034722s)
+[2018.05.30-08.49.07:185][107]LogInit: XAudio2 using 'Casque (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.30-08.49.07:191][107]LogInit: FAudioDevice initialized.
+[2018.05.30-08.49.07:285][107]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.05.30-08.49.07:298][107]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.05.30-10.49.07
+[2018.05.30-08.49.07:299][107]LogWorld: Bringing up level for play took: 0.008909
+[2018.05.30-08.49.07:354][107]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
+[2018.05.30-08.49.07:354][107]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.159
+[2018.05.30-08.49.07:355][107]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.05.30-08.49.24:132][ 64]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.05.30-08.49.24:167][ 64]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.05.30-08.49.38:441][730]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.30-08.49.38:455][730]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.05.30-08.49.38:456][730]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.30-08.49.38:456][730]PIE: New page: PIE session: ThirdPersonExampleMap (May 30, 2018, 12:49:38 PM)
+[2018.05.30-08.49.38:456][730]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.05.30-08.49.38:482][730]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025657s)
+[2018.05.30-08.49.38:482][730]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.05.30-08.49.38:482][730]LogPlayLevel: PIE: World Init took: (0.000785s)
+[2018.05.30-08.49.38:483][730]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.026844s)
+[2018.05.30-08.49.38:500][730]LogInit: XAudio2 using 'Casque (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.30-08.49.38:506][730]LogInit: FAudioDevice initialized.
+[2018.05.30-08.49.38:542][730]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.05.30-08.49.38:551][730]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.05.30-10.49.38
+[2018.05.30-08.49.38:552][730]LogWorld: Bringing up level for play took: 0.008139
+[2018.05.30-08.49.38:555][730]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.639
+[2018.05.30-08.49.38:556][730]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.05.30-08.50.09:844][ 75]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.05.30-08.50.09:888][ 75]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.05.30-08.51.25:512][617]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.30-08.51.25:528][617]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.05.30-08.51.25:528][617]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.30-08.51.25:528][617]PIE: New page: PIE session: ThirdPersonExampleMap (May 30, 2018, 12:51:25 PM)
+[2018.05.30-08.51.25:529][617]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.05.30-08.51.25:553][617]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024981s)
+[2018.05.30-08.51.25:554][617]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.05.30-08.51.25:555][617]LogPlayLevel: PIE: World Init took: (0.001068s)
+[2018.05.30-08.51.25:555][617]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.026419s)
+[2018.05.30-08.51.25:603][617]LogInit: XAudio2 using 'Casque (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.30-08.51.25:609][617]LogInit: FAudioDevice initialized.
+[2018.05.30-08.51.25:641][617]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.05.30-08.51.25:646][617]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.05.30-10.51.25
+[2018.05.30-08.51.25:647][617]LogWorld: Bringing up level for play took: 0.004571
+[2018.05.30-08.51.25:648][617]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.459
+[2018.05.30-08.51.25:649][617]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.05.30-08.52.52:060][771]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.05.30-08.52.52:095][771]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.05.30-08.53.09:201][475]LogSavePackage: Save=274.21ms
+[2018.05.30-08.53.09:202][475]LogSavePackage: Moving '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/ThirdPersonExampleMap5CC4A4594350151339E366B040B45475.tmp' to '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.05.30-08.53.09:207][475]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.05.30-08.53.09:540][475]LogSavePackage: Save=202.52ms
+[2018.05.30-08.53.09:540][475]LogSavePackage: Moving '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/ThirdPersonExampleMap_BuiltData91D5C1F04746139619F95EB25E686661.tmp' to '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.05.30-08.53.09:542][475]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2018.05.30-08.56.52:755][741]LogSavePackage: Save=225.54ms
+[2018.05.30-08.56.52:755][741]LogSavePackage: Moving '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/ThirdPersonExampleMap80B3E7854E4CD69F50FBEE9A7B2D66F4.tmp' to '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.05.30-08.56.52:760][741]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.05.30-08.56.52:909][741]LogSavePackage: Save=120.29ms
+[2018.05.30-08.56.52:909][741]LogSavePackage: Moving '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/ThirdPersonExampleMap_BuiltData497D350C4C4516EDE96F38BCB7EBCAB2.tmp' to '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.05.30-08.56.52:911][741]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2018.05.30-08.56.57:308][177]Cmd: QUIT_EDITOR
+[2018.05.30-08.56.57:761][177]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.05.30-08.56.57:803][177]LogExit: Preparing to exit.
+[2018.05.30-08.56.58:535][177]LogDirectoryWatcher: A directory notification for 'C:/Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/' was aborted.
+[2018.05.30-08.56.58:565][177]LogExit: Editor shut down
+[2018.05.30-08.56.58:574][177]LogExit: Transaction tracking system shut down
+[2018.05.30-08.56.58:792][177]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.05.30-08.56.58:793][177]LogDirectoryWatcher: A directory notification for '../../../../../../Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/' was aborted.
+[2018.05.30-08.56.58:793][177]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.05.30-08.56.58:793][177]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.05.30-08.56.58:793][177]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.05.30-08.56.58:793][177]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.05.30-08.56.58:793][177]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.05.30-08.56.58:861][177]LogExit: Object subsystem successfully closed.
+[2018.05.30-08.56.58:891][177]LogD3D11RHI: Shutdown
+[2018.05.30-08.56.58:891][177]LogD3D11RHI: CleanupD3DDevice
+[2018.05.30-08.56.58:895][177]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.05.30-08.56.58:917][177]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (552)
+[2018.05.30-08.56.58:917][177]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (550)
+[2018.05.30-08.56.58:917][177]LogModuleManager: Shutting down and abandoning module WorldBrowser (548)
+[2018.05.30-08.56.58:917][177]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
+[2018.05.30-08.56.58:917][177]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
+[2018.05.30-08.56.58:917][177]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2018.05.30-08.56.58:918][177]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
+[2018.05.30-08.56.58:918][177]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
+[2018.05.30-08.56.58:918][177]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
+[2018.05.30-08.56.58:918][177]LogDirectoryWatcher: A directory notification for 'C:/Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/Collections/' was aborted.
+[2018.05.30-08.56.58:918][177]LogDirectoryWatcher: A directory notification for 'C:/Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Content/Developers/qroze/Collections/' was aborted.
+[2018.05.30-08.56.58:918][177]LogDirectoryWatcher: A directory notification for 'C:/Users/q.roze/Desktop/BOULOT/PROJETS PERSOS/LEVEL DESIGN/AC 5/AC5LD/ACProject/Saved/Collections/' was aborted.
+[2018.05.30-08.56.58:918][177]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2018.05.30-08.56.58:918][177]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2018.05.30-08.56.58:918][177]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2018.05.30-08.56.58:918][177]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2018.05.30-08.56.58:918][177]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2018.05.30-08.56.58:918][177]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2018.05.30-08.56.58:918][177]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2018.05.30-08.56.58:918][177]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2018.05.30-08.56.58:918][177]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2018.05.30-08.56.58:918][177]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2018.05.30-08.56.58:918][177]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2018.05.30-08.56.58:918][177]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2018.05.30-08.56.58:918][177]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2018.05.30-08.56.58:918][177]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2018.05.30-08.56.58:919][177]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2018.05.30-08.56.58:919][177]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2018.05.30-08.56.58:919][177]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2018.05.30-08.56.58:919][177]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2018.05.30-08.56.58:919][177]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2018.05.30-08.56.58:919][177]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2018.05.30-08.56.58:919][177]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2018.05.30-08.56.58:919][177]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2018.05.30-08.56.58:919][177]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2018.05.30-08.56.58:919][177]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2018.05.30-08.56.58:919][177]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2018.05.30-08.56.58:919][177]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2018.05.30-08.56.58:919][177]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2018.05.30-08.56.58:919][177]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2018.05.30-08.56.58:919][177]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2018.05.30-08.56.58:919][177]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2018.05.30-08.56.58:919][177]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2018.05.30-08.56.58:919][177]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2018.05.30-08.56.58:919][177]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2018.05.30-08.56.58:919][177]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2018.05.30-08.56.58:919][177]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2018.05.30-08.56.58:919][177]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2018.05.30-08.56.58:919][177]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2018.05.30-08.56.58:919][177]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2018.05.30-08.56.58:919][177]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2018.05.30-08.56.58:919][177]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2018.05.30-08.56.58:919][177]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2018.05.30-08.56.59:314][177]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2018.05.30-08.56.59:314][177]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2018.05.30-08.56.59:314][177]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2018.05.30-08.56.59:314][177]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2018.05.30-08.56.59:315][177]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2018.05.30-08.56.59:315][177]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2018.05.30-08.56.59:315][177]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2018.05.30-08.56.59:315][177]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2018.05.30-08.56.59:315][177]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2018.05.30-08.56.59:315][177]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2018.05.30-08.56.59:315][177]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2018.05.30-08.56.59:315][177]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2018.05.30-08.56.59:315][177]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2018.05.30-08.56.59:315][177]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2018.05.30-08.56.59:315][177]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2018.05.30-08.56.59:315][177]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2018.05.30-08.56.59:316][177]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2018.05.30-08.56.59:316][177]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2018.05.30-08.56.59:316][177]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2018.05.30-08.56.59:316][177]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2018.05.30-08.56.59:316][177]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2018.05.30-08.56.59:316][177]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2018.05.30-08.56.59:316][177]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2018.05.30-08.56.59:316][177]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2018.05.30-08.56.59:370][177]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2018.05.30-08.56.59:370][177]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2018.05.30-08.56.59:370][177]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2018.05.30-08.56.59:370][177]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2018.05.30-08.56.59:370][177]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2018.05.30-08.56.59:370][177]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2018.05.30-08.56.59:371][177]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2018.05.30-08.56.59:371][177]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2018.05.30-08.56.59:371][177]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2018.05.30-08.56.59:371][177]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2018.05.30-08.56.59:373][177]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2018.05.30-08.56.59:373][177]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2018.05.30-08.56.59:373][177]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2018.05.30-08.56.59:373][177]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2018.05.30-08.56.59:373][177]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2018.05.30-08.56.59:373][177]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2018.05.30-08.56.59:373][177]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2018.05.30-08.56.59:373][177]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2018.05.30-08.56.59:373][177]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2018.05.30-08.56.59:373][177]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2018.05.30-08.56.59:373][177]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2018.05.30-08.56.59:373][177]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2018.05.30-08.56.59:374][177]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2018.05.30-08.56.59:374][177]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2018.05.30-08.56.59:374][177]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2018.05.30-08.56.59:374][177]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2018.05.30-08.56.59:374][177]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2018.05.30-08.56.59:374][177]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2018.05.30-08.56.59:374][177]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
+[2018.05.30-08.56.59:374][177]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
+[2018.05.30-08.56.59:566][177]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
+[2018.05.30-08.56.59:566][177]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
+[2018.05.30-08.56.59:567][177]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
+[2018.05.30-08.56.59:567][177]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
+[2018.05.30-08.56.59:567][177]LogModuleManager: Shutting down and abandoning module OculusInput (338)
+[2018.05.30-08.56.59:567][177]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
+[2018.05.30-08.56.59:567][177]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2018.05.30-08.56.59:567][177]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2018.05.30-08.56.59:567][177]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
+[2018.05.30-08.56.59:567][177]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
+[2018.05.30-08.56.59:567][177]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
+[2018.05.30-08.56.59:567][177]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
+[2018.05.30-08.56.59:567][177]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
+[2018.05.30-08.56.59:567][177]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
+[2018.05.30-08.56.59:567][177]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
+[2018.05.30-08.56.59:568][177]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
+[2018.05.30-08.56.59:568][177]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
+[2018.05.30-08.56.59:568][177]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
+[2018.05.30-08.56.59:568][177]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
+[2018.05.30-08.56.59:568][177]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
+[2018.05.30-08.56.59:568][177]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
+[2018.05.30-08.56.59:568][177]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
+[2018.05.30-08.56.59:568][177]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
+[2018.05.30-08.56.59:568][177]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
+[2018.05.30-08.56.59:568][177]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2018.05.30-08.56.59:568][177]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
+[2018.05.30-08.56.59:569][177]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
+[2018.05.30-08.56.59:569][177]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2018.05.30-08.56.59:569][177]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2018.05.30-08.56.59:569][177]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
+[2018.05.30-08.56.59:569][177]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
+[2018.05.30-08.56.59:569][177]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
+[2018.05.30-08.56.59:569][177]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
+[2018.05.30-08.56.59:569][177]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
+[2018.05.30-08.56.59:569][177]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
+[2018.05.30-08.56.59:572][177]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
+[2018.05.30-08.56.59:572][177]LogModuleManager: Shutting down and abandoning module MainFrame (274)
+[2018.05.30-08.56.59:573][177]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2018.05.30-08.56.59:574][177]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2018.05.30-08.56.59:574][177]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2018.05.30-08.56.59:574][177]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2018.05.30-08.56.59:574][177]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2018.05.30-08.56.59:574][177]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2018.05.30-08.56.59:574][177]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2018.05.30-08.56.59:574][177]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2018.05.30-08.56.59:574][177]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2018.05.30-08.56.59:675][177]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2018.05.30-08.56.59:775][177]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2018.05.30-08.56.59:775][177]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2018.05.30-08.56.59:775][177]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2018.05.30-08.56.59:776][177]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2018.05.30-08.56.59:776][177]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2018.05.30-08.56.59:776][177]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2018.05.30-08.56.59:779][177]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2018.05.30-08.56.59:779][177]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2018.05.30-08.56.59:780][177]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2018.05.30-08.56.59:780][177]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2018.05.30-08.56.59:785][177]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2018.05.30-08.56.59:785][177]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2018.05.30-08.56.59:785][177]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2018.05.30-08.56.59:785][177]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2018.05.30-08.56.59:785][177]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2018.05.30-08.56.59:785][177]LogModuleManager: Shutting down and abandoning module Media (221)
+[2018.05.30-08.56.59:792][177]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2018.05.30-08.56.59:792][177]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2018.05.30-08.56.59:792][177]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2018.05.30-08.56.59:792][177]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2018.05.30-08.56.59:792][177]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2018.05.30-08.56.59:792][177]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2018.05.30-08.56.59:793][177]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2018.05.30-08.56.59:793][177]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2018.05.30-08.56.59:793][177]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2018.05.30-08.56.59:793][177]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2018.05.30-08.56.59:793][177]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2018.05.30-08.56.59:793][177]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2018.05.30-08.56.59:794][177]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2018.05.30-08.56.59:794][177]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2018.05.30-08.56.59:794][177]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2018.05.30-08.56.59:794][177]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2018.05.30-08.56.59:803][177]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2018.05.30-08.56.59:803][177]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2018.05.30-08.56.59:803][177]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2018.05.30-08.56.59:803][177]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2018.05.30-08.56.59:803][177]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2018.05.30-08.56.59:803][177]LogModuleManager: Shutting down and abandoning module Core (172)
+[2018.05.30-08.56.59:803][177]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2018.05.30-08.56.59:803][177]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2018.05.30-08.56.59:812][177]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.05.30-08.56.59:813][177]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2018.05.30-08.56.59:813][177]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2018.05.30-08.56.59:813][177]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2018.05.30-08.56.59:813][177]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2018.05.30-08.56.59:813][177]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2018.05.30-08.56.59:813][177]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2018.05.30-08.56.59:813][177]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2018.05.30-08.56.59:813][177]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2018.05.30-08.56.59:913][177]LogDerivedDataCache: Shutdown
+[2018.05.30-08.56.59:913][177]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2018.05.30-08.56.59:913][177]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2018.05.30-08.56.59:913][177]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2018.05.30-08.56.59:913][177]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2018.05.30-08.56.59:913][177]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2018.05.30-08.56.59:913][177]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2018.05.30-08.56.59:913][177]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2018.05.30-08.56.59:913][177]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2018.05.30-08.56.59:913][177]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2018.05.30-08.56.59:913][177]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2018.05.30-08.56.59:913][177]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2018.05.30-08.56.59:913][177]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2018.05.30-08.56.59:913][177]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2018.05.30-08.56.59:913][177]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2018.05.30-08.56.59:913][177]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2018.05.30-08.56.59:913][177]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2018.05.30-08.56.59:913][177]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2018.05.30-08.56.59:913][177]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2018.05.30-08.56.59:913][177]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2018.05.30-08.56.59:913][177]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2018.05.30-08.56.59:913][177]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2018.05.30-08.56.59:913][177]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2018.05.30-08.56.59:913][177]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2018.05.30-08.56.59:913][177]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2018.05.30-08.56.59:913][177]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2018.05.30-08.56.59:913][177]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2018.05.30-08.56.59:913][177]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2018.05.30-08.56.59:913][177]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2018.05.30-08.56.59:913][177]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2018.05.30-08.56.59:913][177]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2018.05.30-08.56.59:913][177]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2018.05.30-08.56.59:913][177]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2018.05.30-08.56.59:913][177]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2018.05.30-08.56.59:913][177]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2018.05.30-08.56.59:913][177]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2018.05.30-08.56.59:914][177]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2018.05.30-08.56.59:914][177]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2018.05.30-08.56.59:914][177]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2018.05.30-08.56.59:914][177]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2018.05.30-08.56.59:914][177]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2018.05.30-08.56.59:914][177]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2018.05.30-08.56.59:914][177]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2018.05.30-08.56.59:914][177]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2018.05.30-08.56.59:914][177]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2018.05.30-08.56.59:914][177]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2018.05.30-08.56.59:914][177]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2018.05.30-08.56.59:914][177]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2018.05.30-08.56.59:914][177]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2018.05.30-08.56.59:914][177]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.05.30-08.56.59:914][177]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.05.30-08.56.59:914][177]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.05.30-08.56.59:914][177]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.05.30-08.56.59:914][177]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.05.30-08.56.59:914][177]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.05.30-08.56.59:914][177]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B07CD8C26-4D70-D8C5-AEE5-8DAC189CD788%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=c31245914b28d840664cedadd45726a3%7C51c1858b792f49369db87628fda8b6dc%7C827acf9c-9f39-4f0e-bcce-307d535d0ab0&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.05.30-08.56.59:930][177]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.05.30-08.56.59:932][177]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.05.30-08.56.59:932][177]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.05.30-08.56.59:932][177]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.05.30-08.56.59:932][177]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.05.30-08.56.59:932][177]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.05.30-08.56.59:932][177]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.05.30-08.56.59:932][177]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.05.30-08.56.59:933][177]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.05.30-08.56.59:934][177]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.05.30-08.56.59:934][177]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.05.30-08.56.59:934][177]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.05.30-08.56.59:934][177]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.05.30-08.56.59:934][177]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.05.30-08.56.59:934][177]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.05.30-08.56.59:934][177]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.05.30-08.56.59:934][177]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.05.30-08.56.59:934][177]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.05.30-08.56.59:934][177]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.05.30-08.56.59:953][177]LogExit: Exiting.
+[2018.05.30-08.56.59:957][177]Log file closed, 05/30/18 10:56:59
